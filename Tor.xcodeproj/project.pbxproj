@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9CEAE4E1786E5E4005F8DF0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CEAE4D1786E5E4005F8DF0 /* Cocoa.framework */; };
+		D9CEAE581786E5E4005F8DF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9CEAE561786E5E4005F8DF0 /* InfoPlist.strings */; };
+		D9CEAE5C1786E5E4005F8DF0 /* Tor.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE5B1786E5E4005F8DF0 /* Tor.m */; };
+		D9CEAE641786E5E4005F8DF0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CEAE631786E5E4005F8DF0 /* SenTestingKit.framework */; };
+		D9CEAE651786E5E4005F8DF0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CEAE4D1786E5E4005F8DF0 /* Cocoa.framework */; };
+		D9CEAE681786E5E4005F8DF0 /* Tor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CEAE4A1786E5E4005F8DF0 /* Tor.framework */; };
+		D9CEAE6E1786E5E4005F8DF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9CEAE6C1786E5E4005F8DF0 /* InfoPlist.strings */; };
+		D9CEAE711786E5E4005F8DF0 /* TorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE701786E5E4005F8DF0 /* TorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9CEAE661786E5E4005F8DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9CEAE411786E5E4005F8DF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9CEAE491786E5E4005F8DF0;
+			remoteInfo = Tor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9CEAE4A1786E5E4005F8DF0 /* Tor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9CEAE4D1786E5E4005F8DF0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D9CEAE501786E5E4005F8DF0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D9CEAE511786E5E4005F8DF0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D9CEAE521786E5E4005F8DF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9CEAE551786E5E4005F8DF0 /* Tor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tor-Info.plist"; sourceTree = "<group>"; };
+		D9CEAE571786E5E4005F8DF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9CEAE591786E5E4005F8DF0 /* Tor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tor-Prefix.pch"; sourceTree = "<group>"; };
+		D9CEAE5A1786E5E4005F8DF0 /* Tor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tor.h; sourceTree = "<group>"; };
+		D9CEAE5B1786E5E4005F8DF0 /* Tor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tor.m; sourceTree = "<group>"; };
+		D9CEAE621786E5E4005F8DF0 /* TorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9CEAE631786E5E4005F8DF0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D9CEAE6B1786E5E4005F8DF0 /* TorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TorTests-Info.plist"; sourceTree = "<group>"; };
+		D9CEAE6D1786E5E4005F8DF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9CEAE6F1786E5E4005F8DF0 /* TorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TorTests.h; sourceTree = "<group>"; };
+		D9CEAE701786E5E4005F8DF0 /* TorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9CEAE461786E5E4005F8DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CEAE4E1786E5E4005F8DF0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CEAE5E1786E5E4005F8DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CEAE641786E5E4005F8DF0 /* SenTestingKit.framework in Frameworks */,
+				D9CEAE651786E5E4005F8DF0 /* Cocoa.framework in Frameworks */,
+				D9CEAE681786E5E4005F8DF0 /* Tor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9CEAE401786E5E4005F8DF0 = {
+			isa = PBXGroup;
+			children = (
+				D9CEAE531786E5E4005F8DF0 /* Tor */,
+				D9CEAE691786E5E4005F8DF0 /* TorTests */,
+				D9CEAE4C1786E5E4005F8DF0 /* Frameworks */,
+				D9CEAE4B1786E5E4005F8DF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9CEAE4B1786E5E4005F8DF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9CEAE4A1786E5E4005F8DF0 /* Tor.framework */,
+				D9CEAE621786E5E4005F8DF0 /* TorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9CEAE4C1786E5E4005F8DF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9CEAE4D1786E5E4005F8DF0 /* Cocoa.framework */,
+				D9CEAE631786E5E4005F8DF0 /* SenTestingKit.framework */,
+				D9CEAE4F1786E5E4005F8DF0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9CEAE4F1786E5E4005F8DF0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9CEAE501786E5E4005F8DF0 /* AppKit.framework */,
+				D9CEAE511786E5E4005F8DF0 /* CoreData.framework */,
+				D9CEAE521786E5E4005F8DF0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D9CEAE531786E5E4005F8DF0 /* Tor */ = {
+			isa = PBXGroup;
+			children = (
+				D9CEAE5A1786E5E4005F8DF0 /* Tor.h */,
+				D9CEAE5B1786E5E4005F8DF0 /* Tor.m */,
+				D9CEAE541786E5E4005F8DF0 /* Supporting Files */,
+			);
+			path = Tor;
+			sourceTree = "<group>";
+		};
+		D9CEAE541786E5E4005F8DF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9CEAE551786E5E4005F8DF0 /* Tor-Info.plist */,
+				D9CEAE561786E5E4005F8DF0 /* InfoPlist.strings */,
+				D9CEAE591786E5E4005F8DF0 /* Tor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9CEAE691786E5E4005F8DF0 /* TorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9CEAE6F1786E5E4005F8DF0 /* TorTests.h */,
+				D9CEAE701786E5E4005F8DF0 /* TorTests.m */,
+				D9CEAE6A1786E5E4005F8DF0 /* Supporting Files */,
+			);
+			path = TorTests;
+			sourceTree = "<group>";
+		};
+		D9CEAE6A1786E5E4005F8DF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9CEAE6B1786E5E4005F8DF0 /* TorTests-Info.plist */,
+				D9CEAE6C1786E5E4005F8DF0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D9CEAE471786E5E4005F8DF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D9CEAE491786E5E4005F8DF0 /* Tor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9CEAE741786E5E4005F8DF0 /* Build configuration list for PBXNativeTarget "Tor" */;
+			buildPhases = (
+				D9CEAE451786E5E4005F8DF0 /* Sources */,
+				D9CEAE461786E5E4005F8DF0 /* Frameworks */,
+				D9CEAE471786E5E4005F8DF0 /* Headers */,
+				D9CEAE481786E5E4005F8DF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tor;
+			productName = Tor;
+			productReference = D9CEAE4A1786E5E4005F8DF0 /* Tor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9CEAE611786E5E4005F8DF0 /* TorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9CEAE771786E5E4005F8DF0 /* Build configuration list for PBXNativeTarget "TorTests" */;
+			buildPhases = (
+				D9CEAE5D1786E5E4005F8DF0 /* Sources */,
+				D9CEAE5E1786E5E4005F8DF0 /* Frameworks */,
+				D9CEAE5F1786E5E4005F8DF0 /* Resources */,
+				D9CEAE601786E5E4005F8DF0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9CEAE671786E5E4005F8DF0 /* PBXTargetDependency */,
+			);
+			name = TorTests;
+			productName = TorTests;
+			productReference = D9CEAE621786E5E4005F8DF0 /* TorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9CEAE411786E5E4005F8DF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nova Project";
+			};
+			buildConfigurationList = D9CEAE441786E5E4005F8DF0 /* Build configuration list for PBXProject "Tor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9CEAE401786E5E4005F8DF0;
+			productRefGroup = D9CEAE4B1786E5E4005F8DF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9CEAE491786E5E4005F8DF0 /* Tor */,
+				D9CEAE611786E5E4005F8DF0 /* TorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9CEAE481786E5E4005F8DF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CEAE581786E5E4005F8DF0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CEAE5F1786E5E4005F8DF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CEAE6E1786E5E4005F8DF0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D9CEAE601786E5E4005F8DF0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9CEAE451786E5E4005F8DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CEAE5C1786E5E4005F8DF0 /* Tor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CEAE5D1786E5E4005F8DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CEAE711786E5E4005F8DF0 /* TorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9CEAE671786E5E4005F8DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9CEAE491786E5E4005F8DF0 /* Tor */;
+			targetProxy = D9CEAE661786E5E4005F8DF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9CEAE561786E5E4005F8DF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9CEAE571786E5E4005F8DF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9CEAE6C1786E5E4005F8DF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9CEAE6D1786E5E4005F8DF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9CEAE721786E5E4005F8DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D9CEAE731786E5E4005F8DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D9CEAE751786E5E4005F8DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tor/Tor-Prefix.pch";
+				INFOPLIST_FILE = "Tor/Tor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		D9CEAE761786E5E4005F8DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tor/Tor-Prefix.pch";
+				INFOPLIST_FILE = "Tor/Tor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		D9CEAE781786E5E4005F8DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tor/Tor-Prefix.pch";
+				INFOPLIST_FILE = "TorTests/TorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D9CEAE791786E5E4005F8DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tor/Tor-Prefix.pch";
+				INFOPLIST_FILE = "TorTests/TorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9CEAE441786E5E4005F8DF0 /* Build configuration list for PBXProject "Tor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CEAE721786E5E4005F8DF0 /* Debug */,
+				D9CEAE731786E5E4005F8DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9CEAE741786E5E4005F8DF0 /* Build configuration list for PBXNativeTarget "Tor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CEAE751786E5E4005F8DF0 /* Debug */,
+				D9CEAE761786E5E4005F8DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9CEAE771786E5E4005F8DF0 /* Build configuration list for PBXNativeTarget "TorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CEAE781786E5E4005F8DF0 /* Debug */,
+				D9CEAE791786E5E4005F8DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9CEAE411786E5E4005F8DF0 /* Project object */;
+}
