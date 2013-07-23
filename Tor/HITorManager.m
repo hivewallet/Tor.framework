@@ -38,12 +38,25 @@ const char tor_git_revision[] =
 
 - (void)start
 {
-    [NSThread detachNewThreadSelector:@selector(runTor:) toTarget:self withObject:nil];
+    if (_torThread)
+        return;
+    
+    _torThread = [[NSThread alloc] initWithTarget:self selector:@selector(runTor:) object:nil];
+    [_torThread start];
 }
 
 - (void)stop
 {
+    if (!_torThread)
+        return;
     
+    [_torThread cancel];
+//    while (![_torThread isFinished])
+//    {
+//        sleep(1);
+//    }
+    [_torThread release];
+    _torThread = nil;
 }
 
 
@@ -56,12 +69,13 @@ const char tor_git_revision[] =
 - (void)runTor:(NSThread *)obj
 {
     // Configure basics
-    char *argv[3];
+    char *argv[5];
     int argc = 3;
     argv[0] = "torkit";
     argv[1] = "DisableDebuggerAttachment";
     argv[2] = "0";
-
+    argv[3] = "SocksPort_lines";
+    argv[4] = "9055";
     
     update_approx_time(time(NULL));
     tor_threads_init();

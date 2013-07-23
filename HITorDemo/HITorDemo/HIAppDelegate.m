@@ -16,4 +16,8 @@
     [[HITorManager defaultManager] start];
 }
 
+- (void)applicationWillTerminate:(NSNotification *)notification
+{
+    [[HITorManager defaultManager] stop];
+}
 @end
