@@ -1,0 +1,3 @@
+[submodule "libtor"]
+	path = libtor
+	url = https://git.torproject.org/git/tor

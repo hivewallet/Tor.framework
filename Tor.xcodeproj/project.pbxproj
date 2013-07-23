@@ -7,6 +7,114 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D91FE9A4179E979D001B37D8 /* HITorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D91FE9A2179E979D001B37D8 /* HITorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91FE9A5179E979D001B37D8 /* HITorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D91FE9A3179E979D001B37D8 /* HITorManager.m */; };
+		D973ECFF178707DB007DDE9E /* addressmap.c in Sources */ = {isa = PBXBuildFile; fileRef = D973EC91178707DB007DDE9E /* addressmap.c */; };
+		D973ED00178707DB007DDE9E /* addressmap.h in Headers */ = {isa = PBXBuildFile; fileRef = D973EC92178707DB007DDE9E /* addressmap.h */; };
+		D973ED01178707DB007DDE9E /* buffers.c in Sources */ = {isa = PBXBuildFile; fileRef = D973EC93178707DB007DDE9E /* buffers.c */; };
+		D973ED02178707DB007DDE9E /* buffers.h in Headers */ = {isa = PBXBuildFile; fileRef = D973EC94178707DB007DDE9E /* buffers.h */; };
+		D973ED03178707DB007DDE9E /* channel.c in Sources */ = {isa = PBXBuildFile; fileRef = D973EC95178707DB007DDE9E /* channel.c */; };
+		D973ED04178707DB007DDE9E /* channel.h in Headers */ = {isa = PBXBuildFile; fileRef = D973EC96178707DB007DDE9E /* channel.h */; };
+		D973ED05178707DB007DDE9E /* channeltls.c in Sources */ = {isa = PBXBuildFile; fileRef = D973EC97178707DB007DDE9E /* channeltls.c */; };
+		D973ED06178707DB007DDE9E /* channeltls.h in Headers */ = {isa = PBXBuildFile; fileRef = D973EC98178707DB007DDE9E /* channeltls.h */; };
+		D973ED07178707DB007DDE9E /* circuitbuild.c in Sources */ = {isa = PBXBuildFile; fileRef = D973EC99178707DB007DDE9E /* circuitbuild.c */; };
+		D973ED08178707DB007DDE9E /* circuitbuild.h in Headers */ = {isa = PBXBuildFile; fileRef = D973EC9A178707DB007DDE9E /* circuitbuild.h */; };
+		D973ED09178707DB007DDE9E /* circuitlist.c in Sources */ = {isa = PBXBuildFile; fileRef = D973EC9B178707DB007DDE9E /* circuitlist.c */; };
+		D973ED0A178707DB007DDE9E /* circuitlist.h in Headers */ = {isa = PBXBuildFile; fileRef = D973EC9C178707DB007DDE9E /* circuitlist.h */; };
+		D973ED0B178707DB007DDE9E /* circuitmux.c in Sources */ = {isa = PBXBuildFile; fileRef = D973EC9D178707DB007DDE9E /* circuitmux.c */; };
+		D973ED0C178707DB007DDE9E /* circuitmux.h in Headers */ = {isa = PBXBuildFile; fileRef = D973EC9E178707DB007DDE9E /* circuitmux.h */; };
+		D973ED0D178707DB007DDE9E /* circuitmux_ewma.c in Sources */ = {isa = PBXBuildFile; fileRef = D973EC9F178707DB007DDE9E /* circuitmux_ewma.c */; };
+		D973ED0E178707DB007DDE9E /* circuitmux_ewma.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECA0178707DB007DDE9E /* circuitmux_ewma.h */; };
+		D973ED0F178707DB007DDE9E /* circuitstats.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECA1178707DB007DDE9E /* circuitstats.c */; };
+		D973ED10178707DB007DDE9E /* circuitstats.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECA2178707DB007DDE9E /* circuitstats.h */; };
+		D973ED11178707DB007DDE9E /* circuituse.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECA3178707DB007DDE9E /* circuituse.c */; };
+		D973ED12178707DB007DDE9E /* circuituse.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECA4178707DB007DDE9E /* circuituse.h */; };
+		D973ED13178707DB007DDE9E /* command.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECA5178707DB007DDE9E /* command.c */; };
+		D973ED14178707DB007DDE9E /* command.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECA6178707DB007DDE9E /* command.h */; };
+		D973ED15178707DB007DDE9E /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECA7178707DB007DDE9E /* config.c */; };
+		D973ED16178707DB007DDE9E /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECA8178707DB007DDE9E /* config.h */; };
+		D973ED17178707DB007DDE9E /* config_codedigest.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECA9178707DB007DDE9E /* config_codedigest.c */; };
+		D973ED18178707DB007DDE9E /* confparse.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECAA178707DB007DDE9E /* confparse.c */; };
+		D973ED19178707DB007DDE9E /* confparse.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECAB178707DB007DDE9E /* confparse.h */; };
+		D973ED1A178707DB007DDE9E /* connection.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECAC178707DB007DDE9E /* connection.c */; };
+		D973ED1B178707DB007DDE9E /* connection.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECAD178707DB007DDE9E /* connection.h */; };
+		D973ED1C178707DB007DDE9E /* connection_edge.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECAE178707DB007DDE9E /* connection_edge.c */; };
+		D973ED1D178707DB007DDE9E /* connection_edge.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECAF178707DB007DDE9E /* connection_edge.h */; };
+		D973ED1E178707DB007DDE9E /* connection_or.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECB0178707DB007DDE9E /* connection_or.c */; };
+		D973ED1F178707DB007DDE9E /* connection_or.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECB1178707DB007DDE9E /* connection_or.h */; };
+		D973ED20178707DB007DDE9E /* control.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECB2178707DB007DDE9E /* control.c */; };
+		D973ED21178707DB007DDE9E /* control.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECB3178707DB007DDE9E /* control.h */; };
+		D973ED22178707DB007DDE9E /* cpuworker.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECB4178707DB007DDE9E /* cpuworker.c */; };
+		D973ED23178707DB007DDE9E /* cpuworker.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECB5178707DB007DDE9E /* cpuworker.h */; };
+		D973ED24178707DB007DDE9E /* directory.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECB6178707DB007DDE9E /* directory.c */; };
+		D973ED25178707DB007DDE9E /* directory.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECB7178707DB007DDE9E /* directory.h */; };
+		D973ED26178707DB007DDE9E /* dirserv.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECB8178707DB007DDE9E /* dirserv.c */; };
+		D973ED27178707DB007DDE9E /* dirserv.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECB9178707DB007DDE9E /* dirserv.h */; };
+		D973ED28178707DB007DDE9E /* dirvote.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECBA178707DB007DDE9E /* dirvote.c */; };
+		D973ED29178707DB007DDE9E /* dirvote.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECBB178707DB007DDE9E /* dirvote.h */; };
+		D973ED2A178707DB007DDE9E /* dns.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECBC178707DB007DDE9E /* dns.c */; };
+		D973ED2B178707DB007DDE9E /* dns.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECBD178707DB007DDE9E /* dns.h */; };
+		D973ED2C178707DB007DDE9E /* dnsserv.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECBE178707DB007DDE9E /* dnsserv.c */; };
+		D973ED2D178707DB007DDE9E /* dnsserv.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECBF178707DB007DDE9E /* dnsserv.h */; };
+		D973ED2E178707DB007DDE9E /* entrynodes.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECC0178707DB007DDE9E /* entrynodes.c */; };
+		D973ED2F178707DB007DDE9E /* entrynodes.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECC1178707DB007DDE9E /* entrynodes.h */; };
+		D973ED30178707DB007DDE9E /* eventdns_tor.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECC2178707DB007DDE9E /* eventdns_tor.h */; };
+		D973ED31178707DB007DDE9E /* fp_pair.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECC3178707DB007DDE9E /* fp_pair.c */; };
+		D973ED32178707DB007DDE9E /* fp_pair.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECC4178707DB007DDE9E /* fp_pair.h */; };
+		D973ED33178707DB007DDE9E /* geoip.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECC5178707DB007DDE9E /* geoip.c */; };
+		D973ED34178707DB007DDE9E /* geoip.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECC6178707DB007DDE9E /* geoip.h */; };
+		D973ED35178707DB007DDE9E /* hibernate.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECC7178707DB007DDE9E /* hibernate.c */; };
+		D973ED36178707DB007DDE9E /* hibernate.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECC8178707DB007DDE9E /* hibernate.h */; };
+		D973ED39178707DB007DDE9E /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECCB178707DB007DDE9E /* main.h */; };
+		D973ED3B178707DB007DDE9E /* microdesc.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECCD178707DB007DDE9E /* microdesc.c */; };
+		D973ED3C178707DB007DDE9E /* microdesc.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECCE178707DB007DDE9E /* microdesc.h */; };
+		D973ED3D178707DB007DDE9E /* networkstatus.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECCF178707DB007DDE9E /* networkstatus.c */; };
+		D973ED3E178707DB007DDE9E /* networkstatus.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECD0178707DB007DDE9E /* networkstatus.h */; };
+		D973ED3F178707DB007DDE9E /* nodelist.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECD1178707DB007DDE9E /* nodelist.c */; };
+		D973ED40178707DB007DDE9E /* nodelist.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECD2178707DB007DDE9E /* nodelist.h */; };
+		D973ED43178707DB007DDE9E /* onion.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECD5178707DB007DDE9E /* onion.c */; };
+		D973ED44178707DB007DDE9E /* onion.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECD6178707DB007DDE9E /* onion.h */; };
+		D973ED45178707DB007DDE9E /* onion_fast.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECD7178707DB007DDE9E /* onion_fast.c */; };
+		D973ED46178707DB007DDE9E /* onion_fast.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECD8178707DB007DDE9E /* onion_fast.h */; };
+		D973ED47178707DB007DDE9E /* onion_ntor.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECD9178707DB007DDE9E /* onion_ntor.c */; };
+		D973ED48178707DB007DDE9E /* onion_ntor.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECDA178707DB007DDE9E /* onion_ntor.h */; };
+		D973ED49178707DB007DDE9E /* onion_tap.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECDB178707DB007DDE9E /* onion_tap.c */; };
+		D973ED4A178707DB007DDE9E /* onion_tap.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECDC178707DB007DDE9E /* onion_tap.h */; };
+		D973ED4B178707DB007DDE9E /* or.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECDD178707DB007DDE9E /* or.h */; };
+		D973ED4C178707DB007DDE9E /* policies.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECDE178707DB007DDE9E /* policies.c */; };
+		D973ED4D178707DB007DDE9E /* policies.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECDF178707DB007DDE9E /* policies.h */; };
+		D973ED4E178707DB007DDE9E /* reasons.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECE0178707DB007DDE9E /* reasons.c */; };
+		D973ED4F178707DB007DDE9E /* reasons.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECE1178707DB007DDE9E /* reasons.h */; };
+		D973ED50178707DB007DDE9E /* relay.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECE2178707DB007DDE9E /* relay.c */; };
+		D973ED51178707DB007DDE9E /* relay.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECE3178707DB007DDE9E /* relay.h */; };
+		D973ED52178707DB007DDE9E /* rendclient.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECE4178707DB007DDE9E /* rendclient.c */; };
+		D973ED53178707DB007DDE9E /* rendclient.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECE5178707DB007DDE9E /* rendclient.h */; };
+		D973ED54178707DB007DDE9E /* rendcommon.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECE6178707DB007DDE9E /* rendcommon.c */; };
+		D973ED55178707DB007DDE9E /* rendcommon.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECE7178707DB007DDE9E /* rendcommon.h */; };
+		D973ED56178707DB007DDE9E /* rendmid.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECE8178707DB007DDE9E /* rendmid.c */; };
+		D973ED57178707DB007DDE9E /* rendmid.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECE9178707DB007DDE9E /* rendmid.h */; };
+		D973ED58178707DB007DDE9E /* rendservice.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECEA178707DB007DDE9E /* rendservice.c */; };
+		D973ED59178707DB007DDE9E /* rendservice.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECEB178707DB007DDE9E /* rendservice.h */; };
+		D973ED5A178707DB007DDE9E /* rephist.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECEC178707DB007DDE9E /* rephist.c */; };
+		D973ED5B178707DB007DDE9E /* rephist.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECED178707DB007DDE9E /* rephist.h */; };
+		D973ED5C178707DB007DDE9E /* replaycache.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECEE178707DB007DDE9E /* replaycache.c */; };
+		D973ED5D178707DB007DDE9E /* replaycache.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECEF178707DB007DDE9E /* replaycache.h */; };
+		D973ED5E178707DB007DDE9E /* router.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECF0178707DB007DDE9E /* router.c */; };
+		D973ED5F178707DB007DDE9E /* router.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECF1178707DB007DDE9E /* router.h */; };
+		D973ED60178707DB007DDE9E /* routerlist.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECF2178707DB007DDE9E /* routerlist.c */; };
+		D973ED61178707DB007DDE9E /* routerlist.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECF3178707DB007DDE9E /* routerlist.h */; };
+		D973ED62178707DB007DDE9E /* routerparse.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECF4178707DB007DDE9E /* routerparse.c */; };
+		D973ED63178707DB007DDE9E /* routerparse.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECF5178707DB007DDE9E /* routerparse.h */; };
+		D973ED64178707DB007DDE9E /* routerset.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECF6178707DB007DDE9E /* routerset.c */; };
+		D973ED65178707DB007DDE9E /* routerset.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECF7178707DB007DDE9E /* routerset.h */; };
+		D973ED66178707DB007DDE9E /* statefile.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECF8178707DB007DDE9E /* statefile.c */; };
+		D973ED67178707DB007DDE9E /* statefile.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECF9178707DB007DDE9E /* statefile.h */; };
+		D973ED68178707DB007DDE9E /* status.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECFA178707DB007DDE9E /* status.c */; };
+		D973ED69178707DB007DDE9E /* status.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECFB178707DB007DDE9E /* status.h */; };
+		D973ED6B178707DB007DDE9E /* transports.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ECFD178707DB007DDE9E /* transports.c */; };
+		D973ED6C178707DB007DDE9E /* transports.h in Headers */ = {isa = PBXBuildFile; fileRef = D973ECFE178707DB007DDE9E /* transports.h */; };
+		D973ED7017870AAA007DDE9E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D973ED6F17870AAA007DDE9E /* libz.dylib */; };
+		D973ED7517870B2E007DDE9E /* curve25519-donna-c64.c in Sources */ = {isa = PBXBuildFile; fileRef = D973ED7217870B2E007DDE9E /* curve25519-donna-c64.c */; };
 		D9CEAE4E1786E5E4005F8DF0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CEAE4D1786E5E4005F8DF0 /* Cocoa.framework */; };
 		D9CEAE581786E5E4005F8DF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9CEAE561786E5E4005F8DF0 /* InfoPlist.strings */; };
 		D9CEAE5C1786E5E4005F8DF0 /* Tor.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE5B1786E5E4005F8DF0 /* Tor.m */; };
@@ -15,6 +123,44 @@
 		D9CEAE681786E5E4005F8DF0 /* Tor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CEAE4A1786E5E4005F8DF0 /* Tor.framework */; };
 		D9CEAE6E1786E5E4005F8DF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9CEAE6C1786E5E4005F8DF0 /* InfoPlist.strings */; };
 		D9CEAE711786E5E4005F8DF0 /* TorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE701786E5E4005F8DF0 /* TorTests.m */; };
+		D9CEAEA11786E635005F8DF0 /* address.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE7C1786E635005F8DF0 /* address.c */; };
+		D9CEAEA21786E635005F8DF0 /* address.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAE7D1786E635005F8DF0 /* address.h */; };
+		D9CEAEA31786E635005F8DF0 /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE7E1786E635005F8DF0 /* aes.c */; };
+		D9CEAEA41786E635005F8DF0 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAE7F1786E635005F8DF0 /* aes.h */; };
+		D9CEAEA61786E635005F8DF0 /* compat.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE811786E635005F8DF0 /* compat.c */; };
+		D9CEAEA71786E635005F8DF0 /* compat.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAE821786E635005F8DF0 /* compat.h */; };
+		D9CEAEA81786E635005F8DF0 /* compat_libevent.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE831786E635005F8DF0 /* compat_libevent.c */; };
+		D9CEAEA91786E635005F8DF0 /* compat_libevent.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAE841786E635005F8DF0 /* compat_libevent.h */; };
+		D9CEAEAA1786E635005F8DF0 /* container.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE851786E635005F8DF0 /* container.c */; };
+		D9CEAEAB1786E635005F8DF0 /* container.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAE861786E635005F8DF0 /* container.h */; };
+		D9CEAEAC1786E635005F8DF0 /* crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE871786E635005F8DF0 /* crypto.c */; };
+		D9CEAEAD1786E635005F8DF0 /* crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAE881786E635005F8DF0 /* crypto.h */; };
+		D9CEAEAE1786E635005F8DF0 /* crypto_curve25519.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE891786E635005F8DF0 /* crypto_curve25519.c */; };
+		D9CEAEAF1786E635005F8DF0 /* crypto_curve25519.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAE8A1786E635005F8DF0 /* crypto_curve25519.h */; };
+		D9CEAEB01786E635005F8DF0 /* crypto_format.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE8B1786E635005F8DF0 /* crypto_format.c */; };
+		D9CEAEB11786E635005F8DF0 /* di_ops.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE8C1786E635005F8DF0 /* di_ops.c */; };
+		D9CEAEB21786E635005F8DF0 /* di_ops.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAE8D1786E635005F8DF0 /* di_ops.h */; };
+		D9CEAEB51786E635005F8DF0 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE901786E635005F8DF0 /* log.c */; };
+		D9CEAEB71786E635005F8DF0 /* memarea.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE921786E635005F8DF0 /* memarea.c */; };
+		D9CEAEB81786E635005F8DF0 /* memarea.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAE931786E635005F8DF0 /* memarea.h */; };
+		D9CEAEB91786E635005F8DF0 /* mempool.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE941786E635005F8DF0 /* mempool.c */; };
+		D9CEAEBA1786E635005F8DF0 /* mempool.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAE951786E635005F8DF0 /* mempool.h */; };
+		D9CEAEBB1786E635005F8DF0 /* procmon.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE961786E635005F8DF0 /* procmon.c */; };
+		D9CEAEBC1786E635005F8DF0 /* procmon.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAE971786E635005F8DF0 /* procmon.h */; };
+		D9CEAEBD1786E635005F8DF0 /* torgzip.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE981786E635005F8DF0 /* torgzip.c */; };
+		D9CEAEBE1786E635005F8DF0 /* torgzip.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAE991786E635005F8DF0 /* torgzip.h */; };
+		D9CEAEBF1786E635005F8DF0 /* torint.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAE9A1786E635005F8DF0 /* torint.h */; };
+		D9CEAEC01786E635005F8DF0 /* torlog.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAE9B1786E635005F8DF0 /* torlog.h */; };
+		D9CEAEC11786E635005F8DF0 /* tortls.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE9C1786E635005F8DF0 /* tortls.c */; };
+		D9CEAEC21786E635005F8DF0 /* tortls.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAE9D1786E635005F8DF0 /* tortls.h */; };
+		D9CEAEC31786E635005F8DF0 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAE9E1786E635005F8DF0 /* util.c */; };
+		D9CEAEC41786E635005F8DF0 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAE9F1786E635005F8DF0 /* util.h */; };
+		D9CEAEC51786E635005F8DF0 /* util_codedigest.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAEA01786E635005F8DF0 /* util_codedigest.c */; };
+		D9CEAEF81786E66F005F8DF0 /* ht.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAEE71786E66F005F8DF0 /* ht.h */; };
+		D9CEAEFC1786E66F005F8DF0 /* strlcat.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAEEB1786E66F005F8DF0 /* strlcat.c */; };
+		D9CEAEFD1786E66F005F8DF0 /* strlcpy.c in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAEEC1786E66F005F8DF0 /* strlcpy.c */; };
+		D9CEAF021786E66F005F8DF0 /* tor_queue.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAEF11786E66F005F8DF0 /* tor_queue.h */; };
+		D9CEAF051786E6D2005F8DF0 /* orconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEAF041786E6D2005F8DF0 /* orconfig.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +174,117 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D91FE9A2179E979D001B37D8 /* HITorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HITorManager.h; sourceTree = "<group>"; };
+		D91FE9A3179E979D001B37D8 /* HITorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HITorManager.m; sourceTree = "<group>"; };
+		D973EC91178707DB007DDE9E /* addressmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = addressmap.c; sourceTree = "<group>"; };
+		D973EC92178707DB007DDE9E /* addressmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addressmap.h; sourceTree = "<group>"; };
+		D973EC93178707DB007DDE9E /* buffers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = buffers.c; sourceTree = "<group>"; };
+		D973EC94178707DB007DDE9E /* buffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffers.h; sourceTree = "<group>"; };
+		D973EC95178707DB007DDE9E /* channel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = channel.c; sourceTree = "<group>"; };
+		D973EC96178707DB007DDE9E /* channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = channel.h; sourceTree = "<group>"; };
+		D973EC97178707DB007DDE9E /* channeltls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = channeltls.c; sourceTree = "<group>"; };
+		D973EC98178707DB007DDE9E /* channeltls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = channeltls.h; sourceTree = "<group>"; };
+		D973EC99178707DB007DDE9E /* circuitbuild.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = circuitbuild.c; sourceTree = "<group>"; };
+		D973EC9A178707DB007DDE9E /* circuitbuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = circuitbuild.h; sourceTree = "<group>"; };
+		D973EC9B178707DB007DDE9E /* circuitlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = circuitlist.c; sourceTree = "<group>"; };
+		D973EC9C178707DB007DDE9E /* circuitlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = circuitlist.h; sourceTree = "<group>"; };
+		D973EC9D178707DB007DDE9E /* circuitmux.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = circuitmux.c; sourceTree = "<group>"; };
+		D973EC9E178707DB007DDE9E /* circuitmux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = circuitmux.h; sourceTree = "<group>"; };
+		D973EC9F178707DB007DDE9E /* circuitmux_ewma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = circuitmux_ewma.c; sourceTree = "<group>"; };
+		D973ECA0178707DB007DDE9E /* circuitmux_ewma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = circuitmux_ewma.h; sourceTree = "<group>"; };
+		D973ECA1178707DB007DDE9E /* circuitstats.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = circuitstats.c; sourceTree = "<group>"; };
+		D973ECA2178707DB007DDE9E /* circuitstats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = circuitstats.h; sourceTree = "<group>"; };
+		D973ECA3178707DB007DDE9E /* circuituse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = circuituse.c; sourceTree = "<group>"; };
+		D973ECA4178707DB007DDE9E /* circuituse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = circuituse.h; sourceTree = "<group>"; };
+		D973ECA5178707DB007DDE9E /* command.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = command.c; sourceTree = "<group>"; };
+		D973ECA6178707DB007DDE9E /* command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = command.h; sourceTree = "<group>"; };
+		D973ECA7178707DB007DDE9E /* config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = config.c; sourceTree = "<group>"; };
+		D973ECA8178707DB007DDE9E /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		D973ECA9178707DB007DDE9E /* config_codedigest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = config_codedigest.c; sourceTree = "<group>"; };
+		D973ECAA178707DB007DDE9E /* confparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = confparse.c; sourceTree = "<group>"; };
+		D973ECAB178707DB007DDE9E /* confparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = confparse.h; sourceTree = "<group>"; };
+		D973ECAC178707DB007DDE9E /* connection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = connection.c; sourceTree = "<group>"; };
+		D973ECAD178707DB007DDE9E /* connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connection.h; sourceTree = "<group>"; };
+		D973ECAE178707DB007DDE9E /* connection_edge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = connection_edge.c; sourceTree = "<group>"; };
+		D973ECAF178707DB007DDE9E /* connection_edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connection_edge.h; sourceTree = "<group>"; };
+		D973ECB0178707DB007DDE9E /* connection_or.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = connection_or.c; sourceTree = "<group>"; };
+		D973ECB1178707DB007DDE9E /* connection_or.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connection_or.h; sourceTree = "<group>"; };
+		D973ECB2178707DB007DDE9E /* control.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = control.c; sourceTree = "<group>"; };
+		D973ECB3178707DB007DDE9E /* control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = control.h; sourceTree = "<group>"; };
+		D973ECB4178707DB007DDE9E /* cpuworker.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpuworker.c; sourceTree = "<group>"; };
+		D973ECB5178707DB007DDE9E /* cpuworker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpuworker.h; sourceTree = "<group>"; };
+		D973ECB6178707DB007DDE9E /* directory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = directory.c; sourceTree = "<group>"; };
+		D973ECB7178707DB007DDE9E /* directory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = directory.h; sourceTree = "<group>"; };
+		D973ECB8178707DB007DDE9E /* dirserv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dirserv.c; sourceTree = "<group>"; };
+		D973ECB9178707DB007DDE9E /* dirserv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dirserv.h; sourceTree = "<group>"; };
+		D973ECBA178707DB007DDE9E /* dirvote.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dirvote.c; sourceTree = "<group>"; };
+		D973ECBB178707DB007DDE9E /* dirvote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dirvote.h; sourceTree = "<group>"; };
+		D973ECBC178707DB007DDE9E /* dns.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dns.c; sourceTree = "<group>"; };
+		D973ECBD178707DB007DDE9E /* dns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dns.h; sourceTree = "<group>"; };
+		D973ECBE178707DB007DDE9E /* dnsserv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dnsserv.c; sourceTree = "<group>"; };
+		D973ECBF178707DB007DDE9E /* dnsserv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dnsserv.h; sourceTree = "<group>"; };
+		D973ECC0178707DB007DDE9E /* entrynodes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entrynodes.c; sourceTree = "<group>"; };
+		D973ECC1178707DB007DDE9E /* entrynodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entrynodes.h; sourceTree = "<group>"; };
+		D973ECC2178707DB007DDE9E /* eventdns_tor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventdns_tor.h; sourceTree = "<group>"; };
+		D973ECC3178707DB007DDE9E /* fp_pair.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fp_pair.c; sourceTree = "<group>"; };
+		D973ECC4178707DB007DDE9E /* fp_pair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fp_pair.h; sourceTree = "<group>"; };
+		D973ECC5178707DB007DDE9E /* geoip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = geoip.c; sourceTree = "<group>"; };
+		D973ECC6178707DB007DDE9E /* geoip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geoip.h; sourceTree = "<group>"; };
+		D973ECC7178707DB007DDE9E /* hibernate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hibernate.c; sourceTree = "<group>"; };
+		D973ECC8178707DB007DDE9E /* hibernate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hibernate.h; sourceTree = "<group>"; };
+		D973ECCA178707DB007DDE9E /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D973ECCB178707DB007DDE9E /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		D973ECCD178707DB007DDE9E /* microdesc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = microdesc.c; sourceTree = "<group>"; };
+		D973ECCE178707DB007DDE9E /* microdesc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = microdesc.h; sourceTree = "<group>"; };
+		D973ECCF178707DB007DDE9E /* networkstatus.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = networkstatus.c; sourceTree = "<group>"; };
+		D973ECD0178707DB007DDE9E /* networkstatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = networkstatus.h; sourceTree = "<group>"; };
+		D973ECD1178707DB007DDE9E /* nodelist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nodelist.c; sourceTree = "<group>"; };
+		D973ECD2178707DB007DDE9E /* nodelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nodelist.h; sourceTree = "<group>"; };
+		D973ECD5178707DB007DDE9E /* onion.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = onion.c; sourceTree = "<group>"; };
+		D973ECD6178707DB007DDE9E /* onion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = onion.h; sourceTree = "<group>"; };
+		D973ECD7178707DB007DDE9E /* onion_fast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = onion_fast.c; sourceTree = "<group>"; };
+		D973ECD8178707DB007DDE9E /* onion_fast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = onion_fast.h; sourceTree = "<group>"; };
+		D973ECD9178707DB007DDE9E /* onion_ntor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = onion_ntor.c; sourceTree = "<group>"; };
+		D973ECDA178707DB007DDE9E /* onion_ntor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = onion_ntor.h; sourceTree = "<group>"; };
+		D973ECDB178707DB007DDE9E /* onion_tap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = onion_tap.c; sourceTree = "<group>"; };
+		D973ECDC178707DB007DDE9E /* onion_tap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = onion_tap.h; sourceTree = "<group>"; };
+		D973ECDD178707DB007DDE9E /* or.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = or.h; sourceTree = "<group>"; };
+		D973ECDE178707DB007DDE9E /* policies.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = policies.c; sourceTree = "<group>"; };
+		D973ECDF178707DB007DDE9E /* policies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = policies.h; sourceTree = "<group>"; };
+		D973ECE0178707DB007DDE9E /* reasons.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = reasons.c; sourceTree = "<group>"; };
+		D973ECE1178707DB007DDE9E /* reasons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reasons.h; sourceTree = "<group>"; };
+		D973ECE2178707DB007DDE9E /* relay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = relay.c; sourceTree = "<group>"; };
+		D973ECE3178707DB007DDE9E /* relay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relay.h; sourceTree = "<group>"; };
+		D973ECE4178707DB007DDE9E /* rendclient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rendclient.c; sourceTree = "<group>"; };
+		D973ECE5178707DB007DDE9E /* rendclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rendclient.h; sourceTree = "<group>"; };
+		D973ECE6178707DB007DDE9E /* rendcommon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rendcommon.c; sourceTree = "<group>"; };
+		D973ECE7178707DB007DDE9E /* rendcommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rendcommon.h; sourceTree = "<group>"; };
+		D973ECE8178707DB007DDE9E /* rendmid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rendmid.c; sourceTree = "<group>"; };
+		D973ECE9178707DB007DDE9E /* rendmid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rendmid.h; sourceTree = "<group>"; };
+		D973ECEA178707DB007DDE9E /* rendservice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rendservice.c; sourceTree = "<group>"; };
+		D973ECEB178707DB007DDE9E /* rendservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rendservice.h; sourceTree = "<group>"; };
+		D973ECEC178707DB007DDE9E /* rephist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rephist.c; sourceTree = "<group>"; };
+		D973ECED178707DB007DDE9E /* rephist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rephist.h; sourceTree = "<group>"; };
+		D973ECEE178707DB007DDE9E /* replaycache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = replaycache.c; sourceTree = "<group>"; };
+		D973ECEF178707DB007DDE9E /* replaycache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replaycache.h; sourceTree = "<group>"; };
+		D973ECF0178707DB007DDE9E /* router.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = router.c; sourceTree = "<group>"; };
+		D973ECF1178707DB007DDE9E /* router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = router.h; sourceTree = "<group>"; };
+		D973ECF2178707DB007DDE9E /* routerlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = routerlist.c; sourceTree = "<group>"; };
+		D973ECF3178707DB007DDE9E /* routerlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = routerlist.h; sourceTree = "<group>"; };
+		D973ECF4178707DB007DDE9E /* routerparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = routerparse.c; sourceTree = "<group>"; };
+		D973ECF5178707DB007DDE9E /* routerparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = routerparse.h; sourceTree = "<group>"; };
+		D973ECF6178707DB007DDE9E /* routerset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = routerset.c; sourceTree = "<group>"; };
+		D973ECF7178707DB007DDE9E /* routerset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = routerset.h; sourceTree = "<group>"; };
+		D973ECF8178707DB007DDE9E /* statefile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = statefile.c; sourceTree = "<group>"; };
+		D973ECF9178707DB007DDE9E /* statefile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statefile.h; sourceTree = "<group>"; };
+		D973ECFA178707DB007DDE9E /* status.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = status.c; sourceTree = "<group>"; };
+		D973ECFB178707DB007DDE9E /* status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = status.h; sourceTree = "<group>"; };
+		D973ECFC178707DB007DDE9E /* tor_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tor_main.c; sourceTree = "<group>"; };
+		D973ECFD178707DB007DDE9E /* transports.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = transports.c; sourceTree = "<group>"; };
+		D973ECFE178707DB007DDE9E /* transports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transports.h; sourceTree = "<group>"; };
+		D973ED6D17870A81007DDE9E /* micro-revision.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; name = "micro-revision.i"; path = "libtor/micro-revision.i"; sourceTree = "<group>"; };
+		D973ED6F17870AAA007DDE9E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		D973ED7217870B2E007DDE9E /* curve25519-donna-c64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "curve25519-donna-c64.c"; sourceTree = "<group>"; };
 		D9CEAE4A1786E5E4005F8DF0 /* Tor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CEAE4D1786E5E4005F8DF0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D9CEAE501786E5E4005F8DF0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -44,6 +301,50 @@
 		D9CEAE6D1786E5E4005F8DF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9CEAE6F1786E5E4005F8DF0 /* TorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TorTests.h; sourceTree = "<group>"; };
 		D9CEAE701786E5E4005F8DF0 /* TorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TorTests.m; sourceTree = "<group>"; };
+		D9CEAE7C1786E635005F8DF0 /* address.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = address.c; sourceTree = "<group>"; };
+		D9CEAE7D1786E635005F8DF0 /* address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = address.h; sourceTree = "<group>"; };
+		D9CEAE7E1786E635005F8DF0 /* aes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes.c; sourceTree = "<group>"; };
+		D9CEAE7F1786E635005F8DF0 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		D9CEAE811786E635005F8DF0 /* compat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compat.c; sourceTree = "<group>"; };
+		D9CEAE821786E635005F8DF0 /* compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compat.h; sourceTree = "<group>"; };
+		D9CEAE831786E635005F8DF0 /* compat_libevent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compat_libevent.c; sourceTree = "<group>"; };
+		D9CEAE841786E635005F8DF0 /* compat_libevent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compat_libevent.h; sourceTree = "<group>"; };
+		D9CEAE851786E635005F8DF0 /* container.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = container.c; sourceTree = "<group>"; };
+		D9CEAE861786E635005F8DF0 /* container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = container.h; sourceTree = "<group>"; };
+		D9CEAE871786E635005F8DF0 /* crypto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypto.c; sourceTree = "<group>"; };
+		D9CEAE881786E635005F8DF0 /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		D9CEAE891786E635005F8DF0 /* crypto_curve25519.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypto_curve25519.c; sourceTree = "<group>"; };
+		D9CEAE8A1786E635005F8DF0 /* crypto_curve25519.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_curve25519.h; sourceTree = "<group>"; };
+		D9CEAE8B1786E635005F8DF0 /* crypto_format.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypto_format.c; sourceTree = "<group>"; };
+		D9CEAE8C1786E635005F8DF0 /* di_ops.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = di_ops.c; sourceTree = "<group>"; };
+		D9CEAE8D1786E635005F8DF0 /* di_ops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = di_ops.h; sourceTree = "<group>"; };
+		D9CEAE901786E635005F8DF0 /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = log.c; sourceTree = "<group>"; };
+		D9CEAE921786E635005F8DF0 /* memarea.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memarea.c; sourceTree = "<group>"; };
+		D9CEAE931786E635005F8DF0 /* memarea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memarea.h; sourceTree = "<group>"; };
+		D9CEAE941786E635005F8DF0 /* mempool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mempool.c; sourceTree = "<group>"; };
+		D9CEAE951786E635005F8DF0 /* mempool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mempool.h; sourceTree = "<group>"; };
+		D9CEAE961786E635005F8DF0 /* procmon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = procmon.c; sourceTree = "<group>"; };
+		D9CEAE971786E635005F8DF0 /* procmon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = procmon.h; sourceTree = "<group>"; };
+		D9CEAE981786E635005F8DF0 /* torgzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = torgzip.c; sourceTree = "<group>"; };
+		D9CEAE991786E635005F8DF0 /* torgzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = torgzip.h; sourceTree = "<group>"; };
+		D9CEAE9A1786E635005F8DF0 /* torint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = torint.h; sourceTree = "<group>"; };
+		D9CEAE9B1786E635005F8DF0 /* torlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = torlog.h; sourceTree = "<group>"; };
+		D9CEAE9C1786E635005F8DF0 /* tortls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tortls.c; sourceTree = "<group>"; };
+		D9CEAE9D1786E635005F8DF0 /* tortls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tortls.h; sourceTree = "<group>"; };
+		D9CEAE9E1786E635005F8DF0 /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		D9CEAE9F1786E635005F8DF0 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		D9CEAEA01786E635005F8DF0 /* util_codedigest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util_codedigest.c; sourceTree = "<group>"; };
+		D9CEAEE51786E66F005F8DF0 /* eventdns.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = eventdns.c; sourceTree = "<group>"; };
+		D9CEAEE61786E66F005F8DF0 /* eventdns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventdns.h; sourceTree = "<group>"; };
+		D9CEAEE71786E66F005F8DF0 /* ht.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ht.h; sourceTree = "<group>"; };
+		D9CEAEE91786E66F005F8DF0 /* OpenBSD_malloc_Linux.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OpenBSD_malloc_Linux.c; sourceTree = "<group>"; };
+		D9CEAEEB1786E66F005F8DF0 /* strlcat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strlcat.c; sourceTree = "<group>"; };
+		D9CEAEEC1786E66F005F8DF0 /* strlcpy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strlcpy.c; sourceTree = "<group>"; };
+		D9CEAEF11786E66F005F8DF0 /* tor_queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tor_queue.h; sourceTree = "<group>"; };
+		D9CEAF041786E6D2005F8DF0 /* orconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = orconfig.h; sourceTree = SOURCE_ROOT; };
+		D9CEAF061786E8EF005F8DF0 /* libevent-2.0.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libevent-2.0.5.dylib"; path = "/usr/local/Cellar/libevent/2.0.21/lib/libevent-2.0.5.dylib"; sourceTree = "<absolute>"; };
+		D9CEAF091786EBB9005F8DF0 /* libssl.1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.1.0.0.dylib; path = /usr/local/Cellar/openssl/1.0.1e/lib/libssl.1.0.0.dylib; sourceTree = "<absolute>"; };
+		D9CEAF0C1786EBC7005F8DF0 /* libcrypto.1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.1.0.0.dylib; path = /usr/local/Cellar/openssl/1.0.1e/lib/libcrypto.1.0.0.dylib; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +352,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D973ED7017870AAA007DDE9E /* libz.dylib in Frameworks */,
 				D9CEAE4E1786E5E4005F8DF0 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,9 +370,132 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D973EC90178707DB007DDE9E /* or */ = {
+			isa = PBXGroup;
+			children = (
+				D973EC91178707DB007DDE9E /* addressmap.c */,
+				D973EC92178707DB007DDE9E /* addressmap.h */,
+				D973EC93178707DB007DDE9E /* buffers.c */,
+				D973EC94178707DB007DDE9E /* buffers.h */,
+				D973EC95178707DB007DDE9E /* channel.c */,
+				D973EC96178707DB007DDE9E /* channel.h */,
+				D973EC97178707DB007DDE9E /* channeltls.c */,
+				D973EC98178707DB007DDE9E /* channeltls.h */,
+				D973EC99178707DB007DDE9E /* circuitbuild.c */,
+				D973EC9A178707DB007DDE9E /* circuitbuild.h */,
+				D973EC9B178707DB007DDE9E /* circuitlist.c */,
+				D973EC9C178707DB007DDE9E /* circuitlist.h */,
+				D973EC9D178707DB007DDE9E /* circuitmux.c */,
+				D973EC9E178707DB007DDE9E /* circuitmux.h */,
+				D973EC9F178707DB007DDE9E /* circuitmux_ewma.c */,
+				D973ECA0178707DB007DDE9E /* circuitmux_ewma.h */,
+				D973ECA1178707DB007DDE9E /* circuitstats.c */,
+				D973ECA2178707DB007DDE9E /* circuitstats.h */,
+				D973ECA3178707DB007DDE9E /* circuituse.c */,
+				D973ECA4178707DB007DDE9E /* circuituse.h */,
+				D973ECA5178707DB007DDE9E /* command.c */,
+				D973ECA6178707DB007DDE9E /* command.h */,
+				D973ECA7178707DB007DDE9E /* config.c */,
+				D973ECA8178707DB007DDE9E /* config.h */,
+				D973ECA9178707DB007DDE9E /* config_codedigest.c */,
+				D973ECAA178707DB007DDE9E /* confparse.c */,
+				D973ECAB178707DB007DDE9E /* confparse.h */,
+				D973ECAC178707DB007DDE9E /* connection.c */,
+				D973ECAD178707DB007DDE9E /* connection.h */,
+				D973ECAE178707DB007DDE9E /* connection_edge.c */,
+				D973ECAF178707DB007DDE9E /* connection_edge.h */,
+				D973ECB0178707DB007DDE9E /* connection_or.c */,
+				D973ECB1178707DB007DDE9E /* connection_or.h */,
+				D973ECB2178707DB007DDE9E /* control.c */,
+				D973ECB3178707DB007DDE9E /* control.h */,
+				D973ECB4178707DB007DDE9E /* cpuworker.c */,
+				D973ECB5178707DB007DDE9E /* cpuworker.h */,
+				D973ECB6178707DB007DDE9E /* directory.c */,
+				D973ECB7178707DB007DDE9E /* directory.h */,
+				D973ECB8178707DB007DDE9E /* dirserv.c */,
+				D973ECB9178707DB007DDE9E /* dirserv.h */,
+				D973ECBA178707DB007DDE9E /* dirvote.c */,
+				D973ECBB178707DB007DDE9E /* dirvote.h */,
+				D973ECBC178707DB007DDE9E /* dns.c */,
+				D973ECBD178707DB007DDE9E /* dns.h */,
+				D973ECBE178707DB007DDE9E /* dnsserv.c */,
+				D973ECBF178707DB007DDE9E /* dnsserv.h */,
+				D973ECC0178707DB007DDE9E /* entrynodes.c */,
+				D973ECC1178707DB007DDE9E /* entrynodes.h */,
+				D973ECC2178707DB007DDE9E /* eventdns_tor.h */,
+				D973ECC3178707DB007DDE9E /* fp_pair.c */,
+				D973ECC4178707DB007DDE9E /* fp_pair.h */,
+				D973ECC5178707DB007DDE9E /* geoip.c */,
+				D973ECC6178707DB007DDE9E /* geoip.h */,
+				D973ECC7178707DB007DDE9E /* hibernate.c */,
+				D973ECC8178707DB007DDE9E /* hibernate.h */,
+				D973ECCA178707DB007DDE9E /* main.c */,
+				D973ECCB178707DB007DDE9E /* main.h */,
+				D973ECCD178707DB007DDE9E /* microdesc.c */,
+				D973ECCE178707DB007DDE9E /* microdesc.h */,
+				D973ECCF178707DB007DDE9E /* networkstatus.c */,
+				D973ECD0178707DB007DDE9E /* networkstatus.h */,
+				D973ECD1178707DB007DDE9E /* nodelist.c */,
+				D973ECD2178707DB007DDE9E /* nodelist.h */,
+				D973ECD5178707DB007DDE9E /* onion.c */,
+				D973ECD6178707DB007DDE9E /* onion.h */,
+				D973ECD7178707DB007DDE9E /* onion_fast.c */,
+				D973ECD8178707DB007DDE9E /* onion_fast.h */,
+				D973ECD9178707DB007DDE9E /* onion_ntor.c */,
+				D973ECDA178707DB007DDE9E /* onion_ntor.h */,
+				D973ECDB178707DB007DDE9E /* onion_tap.c */,
+				D973ECDC178707DB007DDE9E /* onion_tap.h */,
+				D973ECDD178707DB007DDE9E /* or.h */,
+				D973ECDE178707DB007DDE9E /* policies.c */,
+				D973ECDF178707DB007DDE9E /* policies.h */,
+				D973ECE0178707DB007DDE9E /* reasons.c */,
+				D973ECE1178707DB007DDE9E /* reasons.h */,
+				D973ECE2178707DB007DDE9E /* relay.c */,
+				D973ECE3178707DB007DDE9E /* relay.h */,
+				D973ECE4178707DB007DDE9E /* rendclient.c */,
+				D973ECE5178707DB007DDE9E /* rendclient.h */,
+				D973ECE6178707DB007DDE9E /* rendcommon.c */,
+				D973ECE7178707DB007DDE9E /* rendcommon.h */,
+				D973ECE8178707DB007DDE9E /* rendmid.c */,
+				D973ECE9178707DB007DDE9E /* rendmid.h */,
+				D973ECEA178707DB007DDE9E /* rendservice.c */,
+				D973ECEB178707DB007DDE9E /* rendservice.h */,
+				D973ECEC178707DB007DDE9E /* rephist.c */,
+				D973ECED178707DB007DDE9E /* rephist.h */,
+				D973ECEE178707DB007DDE9E /* replaycache.c */,
+				D973ECEF178707DB007DDE9E /* replaycache.h */,
+				D973ECF0178707DB007DDE9E /* router.c */,
+				D973ECF1178707DB007DDE9E /* router.h */,
+				D973ECF2178707DB007DDE9E /* routerlist.c */,
+				D973ECF3178707DB007DDE9E /* routerlist.h */,
+				D973ECF4178707DB007DDE9E /* routerparse.c */,
+				D973ECF5178707DB007DDE9E /* routerparse.h */,
+				D973ECF6178707DB007DDE9E /* routerset.c */,
+				D973ECF7178707DB007DDE9E /* routerset.h */,
+				D973ECF8178707DB007DDE9E /* statefile.c */,
+				D973ECF9178707DB007DDE9E /* statefile.h */,
+				D973ECFA178707DB007DDE9E /* status.c */,
+				D973ECFB178707DB007DDE9E /* status.h */,
+				D973ECFC178707DB007DDE9E /* tor_main.c */,
+				D973ECFD178707DB007DDE9E /* transports.c */,
+				D973ECFE178707DB007DDE9E /* transports.h */,
+			);
+			name = or;
+			path = libtor/src/or;
+			sourceTree = "<group>";
+		};
+		D973ED7117870B2E007DDE9E /* curve25519_donna */ = {
+			isa = PBXGroup;
+			children = (
+				D973ED7217870B2E007DDE9E /* curve25519-donna-c64.c */,
+			);
+			path = curve25519_donna;
+			sourceTree = "<group>";
+		};
 		D9CEAE401786E5E4005F8DF0 = {
 			isa = PBXGroup;
 			children = (
+				D9CEAE7A1786E623005F8DF0 /* libtor */,
 				D9CEAE531786E5E4005F8DF0 /* Tor */,
 				D9CEAE691786E5E4005F8DF0 /* TorTests */,
 				D9CEAE4C1786E5E4005F8DF0 /* Frameworks */,
@@ -90,6 +515,10 @@
 		D9CEAE4C1786E5E4005F8DF0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D973ED6F17870AAA007DDE9E /* libz.dylib */,
+				D9CEAF0C1786EBC7005F8DF0 /* libcrypto.1.0.0.dylib */,
+				D9CEAF091786EBB9005F8DF0 /* libssl.1.0.0.dylib */,
+				D9CEAF061786E8EF005F8DF0 /* libevent-2.0.5.dylib */,
 				D9CEAE4D1786E5E4005F8DF0 /* Cocoa.framework */,
 				D9CEAE631786E5E4005F8DF0 /* SenTestingKit.framework */,
 				D9CEAE4F1786E5E4005F8DF0 /* Other Frameworks */,
@@ -110,6 +539,8 @@
 		D9CEAE531786E5E4005F8DF0 /* Tor */ = {
 			isa = PBXGroup;
 			children = (
+				D91FE9A2179E979D001B37D8 /* HITorManager.h */,
+				D91FE9A3179E979D001B37D8 /* HITorManager.m */,
 				D9CEAE5A1786E5E4005F8DF0 /* Tor.h */,
 				D9CEAE5B1786E5E4005F8DF0 /* Tor.m */,
 				D9CEAE541786E5E4005F8DF0 /* Supporting Files */,
@@ -120,6 +551,7 @@
 		D9CEAE541786E5E4005F8DF0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D9CEAF041786E6D2005F8DF0 /* orconfig.h */,
 				D9CEAE551786E5E4005F8DF0 /* Tor-Info.plist */,
 				D9CEAE561786E5E4005F8DF0 /* InfoPlist.strings */,
 				D9CEAE591786E5E4005F8DF0 /* Tor-Prefix.pch */,
@@ -146,6 +578,74 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D9CEAE7A1786E623005F8DF0 /* libtor */ = {
+			isa = PBXGroup;
+			children = (
+				D973ED6D17870A81007DDE9E /* micro-revision.i */,
+				D973EC90178707DB007DDE9E /* or */,
+				D9CEAEE01786E66F005F8DF0 /* ext */,
+				D9CEAE7B1786E635005F8DF0 /* common */,
+			);
+			name = libtor;
+			sourceTree = "<group>";
+		};
+		D9CEAE7B1786E635005F8DF0 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				D9CEAE7C1786E635005F8DF0 /* address.c */,
+				D9CEAE7D1786E635005F8DF0 /* address.h */,
+				D9CEAE7E1786E635005F8DF0 /* aes.c */,
+				D9CEAE7F1786E635005F8DF0 /* aes.h */,
+				D9CEAE811786E635005F8DF0 /* compat.c */,
+				D9CEAE821786E635005F8DF0 /* compat.h */,
+				D9CEAE831786E635005F8DF0 /* compat_libevent.c */,
+				D9CEAE841786E635005F8DF0 /* compat_libevent.h */,
+				D9CEAE851786E635005F8DF0 /* container.c */,
+				D9CEAE861786E635005F8DF0 /* container.h */,
+				D9CEAE871786E635005F8DF0 /* crypto.c */,
+				D9CEAE881786E635005F8DF0 /* crypto.h */,
+				D9CEAE891786E635005F8DF0 /* crypto_curve25519.c */,
+				D9CEAE8A1786E635005F8DF0 /* crypto_curve25519.h */,
+				D9CEAE8B1786E635005F8DF0 /* crypto_format.c */,
+				D9CEAE8C1786E635005F8DF0 /* di_ops.c */,
+				D9CEAE8D1786E635005F8DF0 /* di_ops.h */,
+				D9CEAE901786E635005F8DF0 /* log.c */,
+				D9CEAE921786E635005F8DF0 /* memarea.c */,
+				D9CEAE931786E635005F8DF0 /* memarea.h */,
+				D9CEAE941786E635005F8DF0 /* mempool.c */,
+				D9CEAE951786E635005F8DF0 /* mempool.h */,
+				D9CEAE961786E635005F8DF0 /* procmon.c */,
+				D9CEAE971786E635005F8DF0 /* procmon.h */,
+				D9CEAE981786E635005F8DF0 /* torgzip.c */,
+				D9CEAE991786E635005F8DF0 /* torgzip.h */,
+				D9CEAE9A1786E635005F8DF0 /* torint.h */,
+				D9CEAE9B1786E635005F8DF0 /* torlog.h */,
+				D9CEAE9C1786E635005F8DF0 /* tortls.c */,
+				D9CEAE9D1786E635005F8DF0 /* tortls.h */,
+				D9CEAE9E1786E635005F8DF0 /* util.c */,
+				D9CEAE9F1786E635005F8DF0 /* util.h */,
+				D9CEAEA01786E635005F8DF0 /* util_codedigest.c */,
+			);
+			name = common;
+			path = libtor/src/common;
+			sourceTree = "<group>";
+		};
+		D9CEAEE01786E66F005F8DF0 /* ext */ = {
+			isa = PBXGroup;
+			children = (
+				D973ED7117870B2E007DDE9E /* curve25519_donna */,
+				D9CEAEE51786E66F005F8DF0 /* eventdns.c */,
+				D9CEAEE61786E66F005F8DF0 /* eventdns.h */,
+				D9CEAEE71786E66F005F8DF0 /* ht.h */,
+				D9CEAEE91786E66F005F8DF0 /* OpenBSD_malloc_Linux.c */,
+				D9CEAEEB1786E66F005F8DF0 /* strlcat.c */,
+				D9CEAEEC1786E66F005F8DF0 /* strlcpy.c */,
+				D9CEAEF11786E66F005F8DF0 /* tor_queue.h */,
+			);
+			name = ext;
+			path = libtor/src/ext;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -153,6 +653,79 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D91FE9A4179E979D001B37D8 /* HITorManager.h in Headers */,
+				D9CEAEA21786E635005F8DF0 /* address.h in Headers */,
+				D9CEAEA41786E635005F8DF0 /* aes.h in Headers */,
+				D9CEAEA71786E635005F8DF0 /* compat.h in Headers */,
+				D9CEAEA91786E635005F8DF0 /* compat_libevent.h in Headers */,
+				D9CEAEAB1786E635005F8DF0 /* container.h in Headers */,
+				D9CEAEAD1786E635005F8DF0 /* crypto.h in Headers */,
+				D9CEAEAF1786E635005F8DF0 /* crypto_curve25519.h in Headers */,
+				D9CEAEB21786E635005F8DF0 /* di_ops.h in Headers */,
+				D9CEAEB81786E635005F8DF0 /* memarea.h in Headers */,
+				D9CEAEBA1786E635005F8DF0 /* mempool.h in Headers */,
+				D9CEAEBC1786E635005F8DF0 /* procmon.h in Headers */,
+				D9CEAEBE1786E635005F8DF0 /* torgzip.h in Headers */,
+				D9CEAEBF1786E635005F8DF0 /* torint.h in Headers */,
+				D9CEAEC01786E635005F8DF0 /* torlog.h in Headers */,
+				D9CEAEC21786E635005F8DF0 /* tortls.h in Headers */,
+				D9CEAEC41786E635005F8DF0 /* util.h in Headers */,
+				D9CEAEF81786E66F005F8DF0 /* ht.h in Headers */,
+				D9CEAF021786E66F005F8DF0 /* tor_queue.h in Headers */,
+				D9CEAF051786E6D2005F8DF0 /* orconfig.h in Headers */,
+				D973ED00178707DB007DDE9E /* addressmap.h in Headers */,
+				D973ED02178707DB007DDE9E /* buffers.h in Headers */,
+				D973ED04178707DB007DDE9E /* channel.h in Headers */,
+				D973ED06178707DB007DDE9E /* channeltls.h in Headers */,
+				D973ED08178707DB007DDE9E /* circuitbuild.h in Headers */,
+				D973ED0A178707DB007DDE9E /* circuitlist.h in Headers */,
+				D973ED0C178707DB007DDE9E /* circuitmux.h in Headers */,
+				D973ED0E178707DB007DDE9E /* circuitmux_ewma.h in Headers */,
+				D973ED10178707DB007DDE9E /* circuitstats.h in Headers */,
+				D973ED12178707DB007DDE9E /* circuituse.h in Headers */,
+				D973ED14178707DB007DDE9E /* command.h in Headers */,
+				D973ED16178707DB007DDE9E /* config.h in Headers */,
+				D973ED19178707DB007DDE9E /* confparse.h in Headers */,
+				D973ED1B178707DB007DDE9E /* connection.h in Headers */,
+				D973ED1D178707DB007DDE9E /* connection_edge.h in Headers */,
+				D973ED1F178707DB007DDE9E /* connection_or.h in Headers */,
+				D973ED21178707DB007DDE9E /* control.h in Headers */,
+				D973ED23178707DB007DDE9E /* cpuworker.h in Headers */,
+				D973ED25178707DB007DDE9E /* directory.h in Headers */,
+				D973ED27178707DB007DDE9E /* dirserv.h in Headers */,
+				D973ED29178707DB007DDE9E /* dirvote.h in Headers */,
+				D973ED2B178707DB007DDE9E /* dns.h in Headers */,
+				D973ED2D178707DB007DDE9E /* dnsserv.h in Headers */,
+				D973ED2F178707DB007DDE9E /* entrynodes.h in Headers */,
+				D973ED30178707DB007DDE9E /* eventdns_tor.h in Headers */,
+				D973ED32178707DB007DDE9E /* fp_pair.h in Headers */,
+				D973ED34178707DB007DDE9E /* geoip.h in Headers */,
+				D973ED36178707DB007DDE9E /* hibernate.h in Headers */,
+				D973ED39178707DB007DDE9E /* main.h in Headers */,
+				D973ED3C178707DB007DDE9E /* microdesc.h in Headers */,
+				D973ED3E178707DB007DDE9E /* networkstatus.h in Headers */,
+				D973ED40178707DB007DDE9E /* nodelist.h in Headers */,
+				D973ED44178707DB007DDE9E /* onion.h in Headers */,
+				D973ED46178707DB007DDE9E /* onion_fast.h in Headers */,
+				D973ED48178707DB007DDE9E /* onion_ntor.h in Headers */,
+				D973ED4A178707DB007DDE9E /* onion_tap.h in Headers */,
+				D973ED4B178707DB007DDE9E /* or.h in Headers */,
+				D973ED4D178707DB007DDE9E /* policies.h in Headers */,
+				D973ED4F178707DB007DDE9E /* reasons.h in Headers */,
+				D973ED51178707DB007DDE9E /* relay.h in Headers */,
+				D973ED53178707DB007DDE9E /* rendclient.h in Headers */,
+				D973ED55178707DB007DDE9E /* rendcommon.h in Headers */,
+				D973ED57178707DB007DDE9E /* rendmid.h in Headers */,
+				D973ED59178707DB007DDE9E /* rendservice.h in Headers */,
+				D973ED5B178707DB007DDE9E /* rephist.h in Headers */,
+				D973ED5D178707DB007DDE9E /* replaycache.h in Headers */,
+				D973ED5F178707DB007DDE9E /* router.h in Headers */,
+				D973ED61178707DB007DDE9E /* routerlist.h in Headers */,
+				D973ED63178707DB007DDE9E /* routerparse.h in Headers */,
+				D973ED65178707DB007DDE9E /* routerset.h in Headers */,
+				D973ED67178707DB007DDE9E /* statefile.h in Headers */,
+				D973ED69178707DB007DDE9E /* status.h in Headers */,
+				D973ED6C178707DB007DDE9E /* transports.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +736,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9CEAE741786E5E4005F8DF0 /* Build configuration list for PBXNativeTarget "Tor" */;
 			buildPhases = (
+				D973EC8F178705C0007DDE9E /* ShellScript */,
 				D9CEAE451786E5E4005F8DF0 /* Sources */,
 				D9CEAE461786E5E4005F8DF0 /* Frameworks */,
 				D9CEAE471786E5E4005F8DF0 /* Headers */,
@@ -243,6 +817,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		D973EC8F178705C0007DDE9E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${SRCROOT}/libtor\n@rm -f micro-revision.tmp;                              \\\nif test -d \"${SRCROOT}/libtor/.git\" &&                              \\\ntest -x \"`which git 2>&1;true`\"; then                         \\\nHASH=\"`cd \"$(top_srcdir)\" && git rev-parse --short=16 HEAD`\"; \\\necho \\\"$$HASH\\\" > micro-revision.tmp;                         \\\nfi;                                                             \\\nif test ! -f micro-revision.tmp ; then                  \\\nif test ! -f micro-revision.i ; then                  \\\necho '\"\"' > micro-revision.i;                       \\\nfi;                                                           \\\nelif test ! -f micro-revision.i ||                      \\\ntest x\"`cat micro-revision.tmp`\" != x\"`cat micro-revision.i`\"; then \\\nmv micro-revision.tmp micro-revision.i;               \\\nfi; \n/usr/bin/openssl sha1 src/common/*.h src/common/*.inc | \"sed\" -n 's/SHA1(\\(.*\\))= \\(.*\\)/\"\\2  \\1\\\\n\"/p' > ${SRCROOT}/libtor/src/common/common_sha1.i;\n/usr/bin/openssl sha1 src/or/*.h | \"sed\" -n 's/SHA1(\\(.*\\))= \\(.*\\)/\"\\2  \\1\\\\n\"/p' > ${SRCROOT}/libtor/src/or/or_sha1.i;";
+		};
 		D9CEAE601786E5E4005F8DF0 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,6 +851,78 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9CEAE5C1786E5E4005F8DF0 /* Tor.m in Sources */,
+				D9CEAEA11786E635005F8DF0 /* address.c in Sources */,
+				D9CEAEA31786E635005F8DF0 /* aes.c in Sources */,
+				D9CEAEA61786E635005F8DF0 /* compat.c in Sources */,
+				D9CEAEA81786E635005F8DF0 /* compat_libevent.c in Sources */,
+				D9CEAEAA1786E635005F8DF0 /* container.c in Sources */,
+				D9CEAEAC1786E635005F8DF0 /* crypto.c in Sources */,
+				D9CEAEAE1786E635005F8DF0 /* crypto_curve25519.c in Sources */,
+				D9CEAEB01786E635005F8DF0 /* crypto_format.c in Sources */,
+				D9CEAEB11786E635005F8DF0 /* di_ops.c in Sources */,
+				D9CEAEB51786E635005F8DF0 /* log.c in Sources */,
+				D9CEAEB71786E635005F8DF0 /* memarea.c in Sources */,
+				D9CEAEB91786E635005F8DF0 /* mempool.c in Sources */,
+				D9CEAEBB1786E635005F8DF0 /* procmon.c in Sources */,
+				D9CEAEBD1786E635005F8DF0 /* torgzip.c in Sources */,
+				D9CEAEC11786E635005F8DF0 /* tortls.c in Sources */,
+				D9CEAEC31786E635005F8DF0 /* util.c in Sources */,
+				D9CEAEC51786E635005F8DF0 /* util_codedigest.c in Sources */,
+				D9CEAEFC1786E66F005F8DF0 /* strlcat.c in Sources */,
+				D9CEAEFD1786E66F005F8DF0 /* strlcpy.c in Sources */,
+				D973ECFF178707DB007DDE9E /* addressmap.c in Sources */,
+				D973ED01178707DB007DDE9E /* buffers.c in Sources */,
+				D973ED03178707DB007DDE9E /* channel.c in Sources */,
+				D973ED05178707DB007DDE9E /* channeltls.c in Sources */,
+				D973ED07178707DB007DDE9E /* circuitbuild.c in Sources */,
+				D973ED09178707DB007DDE9E /* circuitlist.c in Sources */,
+				D973ED0B178707DB007DDE9E /* circuitmux.c in Sources */,
+				D973ED0D178707DB007DDE9E /* circuitmux_ewma.c in Sources */,
+				D973ED0F178707DB007DDE9E /* circuitstats.c in Sources */,
+				D973ED11178707DB007DDE9E /* circuituse.c in Sources */,
+				D973ED13178707DB007DDE9E /* command.c in Sources */,
+				D973ED15178707DB007DDE9E /* config.c in Sources */,
+				D973ED17178707DB007DDE9E /* config_codedigest.c in Sources */,
+				D973ED18178707DB007DDE9E /* confparse.c in Sources */,
+				D973ED1A178707DB007DDE9E /* connection.c in Sources */,
+				D973ED1C178707DB007DDE9E /* connection_edge.c in Sources */,
+				D973ED1E178707DB007DDE9E /* connection_or.c in Sources */,
+				D973ED20178707DB007DDE9E /* control.c in Sources */,
+				D973ED22178707DB007DDE9E /* cpuworker.c in Sources */,
+				D973ED24178707DB007DDE9E /* directory.c in Sources */,
+				D973ED26178707DB007DDE9E /* dirserv.c in Sources */,
+				D973ED28178707DB007DDE9E /* dirvote.c in Sources */,
+				D973ED2A178707DB007DDE9E /* dns.c in Sources */,
+				D973ED2C178707DB007DDE9E /* dnsserv.c in Sources */,
+				D973ED2E178707DB007DDE9E /* entrynodes.c in Sources */,
+				D973ED31178707DB007DDE9E /* fp_pair.c in Sources */,
+				D973ED33178707DB007DDE9E /* geoip.c in Sources */,
+				D973ED35178707DB007DDE9E /* hibernate.c in Sources */,
+				D973ED3B178707DB007DDE9E /* microdesc.c in Sources */,
+				D973ED3D178707DB007DDE9E /* networkstatus.c in Sources */,
+				D973ED3F178707DB007DDE9E /* nodelist.c in Sources */,
+				D973ED43178707DB007DDE9E /* onion.c in Sources */,
+				D973ED45178707DB007DDE9E /* onion_fast.c in Sources */,
+				D973ED47178707DB007DDE9E /* onion_ntor.c in Sources */,
+				D973ED49178707DB007DDE9E /* onion_tap.c in Sources */,
+				D973ED4C178707DB007DDE9E /* policies.c in Sources */,
+				D973ED4E178707DB007DDE9E /* reasons.c in Sources */,
+				D973ED50178707DB007DDE9E /* relay.c in Sources */,
+				D973ED52178707DB007DDE9E /* rendclient.c in Sources */,
+				D973ED54178707DB007DDE9E /* rendcommon.c in Sources */,
+				D973ED56178707DB007DDE9E /* rendmid.c in Sources */,
+				D973ED58178707DB007DDE9E /* rendservice.c in Sources */,
+				D973ED5A178707DB007DDE9E /* rephist.c in Sources */,
+				D973ED5C178707DB007DDE9E /* replaycache.c in Sources */,
+				D973ED5E178707DB007DDE9E /* router.c in Sources */,
+				D973ED60178707DB007DDE9E /* routerlist.c in Sources */,
+				D973ED62178707DB007DDE9E /* routerparse.c in Sources */,
+				D973ED64178707DB007DDE9E /* routerset.c in Sources */,
+				D973ED66178707DB007DDE9E /* statefile.c in Sources */,
+				D973ED68178707DB007DDE9E /* status.c in Sources */,
+				D973ED6B178707DB007DDE9E /* transports.c in Sources */,
+				D973ED7517870B2E007DDE9E /* curve25519-donna-c64.c in Sources */,
+				D91FE9A5179E979D001B37D8 /* HITorManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,14 +1024,28 @@
 		D9CEAE751786E5E4005F8DF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tor/Tor-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = "Tor/Tor-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = (
+					"-DSHARE_DATADIR=\"\\\"/usr/local/share\\\"\"",
+					"-DLOCALSTATEDIR=\\\"/usr/local/var\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					/usr/local/opt/openssl/lib/libcrypto.a,
+					/usr/local/opt/openssl/lib/libssl.a,
+					/usr/local/lib/libevent.a,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				USER_HEADER_SEARCH_PATHS = tor/src/or/;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -380,14 +1053,28 @@
 		D9CEAE761786E5E4005F8DF0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tor/Tor-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = "Tor/Tor-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = (
+					"-DSHARE_DATADIR=\"\\\"/usr/local/share\\\"\"",
+					"-DLOCALSTATEDIR=\\\"/usr/local/var\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					/usr/local/opt/openssl/lib/libcrypto.a,
+					/usr/local/opt/openssl/lib/libssl.a,
+					/usr/local/lib/libevent.a,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				USER_HEADER_SEARCH_PATHS = tor/src/or/;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -437,6 +1124,7 @@
 				D9CEAE761786E5E4005F8DF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9CEAE771786E5E4005F8DF0 /* Build configuration list for PBXNativeTarget "TorTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +1133,7 @@
 				D9CEAE791786E5E4005F8DF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
