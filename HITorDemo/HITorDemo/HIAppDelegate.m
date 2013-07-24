@@ -38,4 +38,10 @@
 {
     [_progressIndicator startAnimation:self];
 }
+
+- (BOOL)applicationOpenUntitledFile:(NSApplication *)theApplication
+{
+    [_window makeKeyAndOrderFront:self];
+    return  NO;
+}
 @end
