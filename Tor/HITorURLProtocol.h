@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+/** Class that takes control of all http and https requests and make them
+ *  routable via Tor network.
+ *  HITorManager can register and unregister it for you, so you don't need to worry about it.
+ */
 @interface HITorURLProtocol : NSURLProtocol
 
 @end
