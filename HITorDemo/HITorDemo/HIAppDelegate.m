@@ -14,6 +14,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     [HITorManager defaultManager].port = 9999;
+    [HITorManager defaultManager].dataDirectoryURL = [[[[NSFileManager defaultManager] URLsForDirectory:NSApplicationSupportDirectory inDomains:NSUserDomainMask] lastObject] URLByAppendingPathComponent:@"com.Hive.TorDemo"];
     [[HITorManager defaultManager] addObserver:self forKeyPath:@"isRunning" options:NSKeyValueObservingOptionInitial | NSKeyValueObservingOptionNew context:NULL];
     [[HITorManager defaultManager] start];
     [HITorManager defaultManager].torRouting = YES;

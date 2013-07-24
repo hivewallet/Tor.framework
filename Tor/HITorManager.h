@@ -20,7 +20,7 @@ NSString * const kHITorManagerStopped; //<< Notification informing that the tor 
 @property (nonatomic, setter = setTorRouting:, getter = torRouting) BOOL torRouting; //<< Enables and disables tor routing for all NSURLRequests. Default is NO.
 @property (nonatomic, assign) NSUInteger port;                                       //<< Sets a port for tor proxy server. Default is 9050
 @property (nonatomic, readonly, getter = isRunning) BOOL isRunning;                  //<< Flag informing that the server is currently running
-
+@property (nonatomic, copy) NSURL *dataDirectoryURL;                                 //<< Where the tor data should be kept
 /** Class method returning defult tor manager.
  *
  * Please not that you shouldn't been creating 

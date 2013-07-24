@@ -35,6 +35,7 @@ NSString * const kHITorManagerStopped = @"kHITorManagerStopped";
 @implementation HITorManager
 @synthesize port = _port;
 @synthesize torRouting = _torRouting;
+@synthesize dataDirectoryURL = _dataDirectoryURL;
 
 + (HITorManager *)defaultManager
 {
@@ -54,6 +55,9 @@ NSString * const kHITorManagerStopped = @"kHITorManagerStopped";
     if (self)
     {
         _port = 9050;
+        NSURL *appSupportURL = [[[[NSFileManager defaultManager] URLsForDirectory:NSApplicationSupportDirectory inDomains:NSUserDomainMask] lastObject] URLByAppendingPathComponent:@"com.Hive.Tor"];
+        self.dataDirectoryURL = appSupportURL;
+        
     }
     
     return self;
@@ -121,6 +125,7 @@ NSString * const kHITorManagerStopped = @"kHITorManagerStopped";
 {
     [_startupDate release];
     [_startupTimer invalidate];
+    [_dataDirectoryURL release];
     [self stop];
     [super dealloc];
 }
@@ -149,21 +154,23 @@ NSString * const kHITorManagerStopped = @"kHITorManagerStopped";
 
 - (void)runTor:(NSThread *)obj
 {
+    [[NSFileManager defaultManager] createDirectoryAtURL:_dataDirectoryURL withIntermediateDirectories:YES attributes:0 error:NULL];
     // Configure basics
-    char *argv[6];
+    char *argv[8];
     int argc = 3;
     argv[0] = "torkit";
     argv[1] = "SOCKSPort";
     argv[2] = (char *)[[NSString stringWithFormat:@"%lu", (unsigned long)_port] UTF8String];
-
-#ifdef DEBUG
-    argc = 6;
-    argv[3] = "DisableDebuggerAttachment";
-    argv[4] = "0";
-#else
-    argc = 4;
-    argv[3] = "--quiet";
-#endif //DEBUG
+    argv[3] = "DataDirectory";
+    argv[4] = (char *)[_dataDirectoryURL.path UTF8String];
+//#ifdef DEBUG
+    argc = 7;
+    argv[5] = "DisableDebuggerAttachment";
+    argv[6] = "0";
+//#else
+//    argc = 4;
+//    argv[3] = "--quiet";
+//#endif //DEBUG
     
     
     update_approx_time(time(NULL));
