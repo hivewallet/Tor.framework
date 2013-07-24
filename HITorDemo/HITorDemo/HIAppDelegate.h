@@ -7,9 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <WebKit/WebKit.h>
+@interface HIAppDelegate : NSObject <NSApplicationDelegate, NSTextFieldDelegate>
 
-@interface HIAppDelegate : NSObject <NSApplicationDelegate>
-
+@property (weak) IBOutlet NSProgressIndicator *progressIndicator;
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSTextField *urlTextField;
+@property (weak) IBOutlet WebView *webView;
+- (IBAction)goClicked:(id)sender;
 
 @end

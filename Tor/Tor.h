@@ -7,7 +7,5 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface Tor : NSObject
-
-@end
+#import <Tor/HITorManager.h>
+#import <Tor/HITorURLProtocol.h>

@@ -14,6 +14,7 @@
 		D91FE9C7179E9ACB001B37D8 /* HIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D91FE9C6179E9ACB001B37D8 /* HIAppDelegate.m */; };
 		D91FE9CA179E9ACB001B37D8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D91FE9C8179E9ACB001B37D8 /* MainMenu.xib */; };
 		D91FE9DB179E9B0B001B37D8 /* Tor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91FE9D6179E9AF5001B37D8 /* Tor.framework */; };
+		D91FE9E0179FC99A001B37D8 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91FE9DF179FC99A001B37D8 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		D91FE9C6179E9ACB001B37D8 /* HIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HIAppDelegate.m; sourceTree = "<group>"; };
 		D91FE9C9179E9ACB001B37D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D91FE9D0179E9AF5001B37D8 /* Tor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Tor.xcodeproj; path = ../Tor.xcodeproj; sourceTree = "<group>"; };
+		D91FE9DF179FC99A001B37D8 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D91FE9E0179FC99A001B37D8 /* WebKit.framework in Frameworks */,
 				D91FE9DB179E9B0B001B37D8 /* Tor.framework in Frameworks */,
 				D91FE9B4179E9ACA001B37D8 /* Cocoa.framework in Frameworks */,
 			);
@@ -91,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				D91FE9D0179E9AF5001B37D8 /* Tor.xcodeproj */,
+				D91FE9DF179FC99A001B37D8 /* WebKit.framework */,
 				D91FE9B3179E9ACA001B37D8 /* Cocoa.framework */,
 				D91FE9B5179E9ACA001B37D8 /* Other Frameworks */,
 			);

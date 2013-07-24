@@ -7,17 +7,35 @@
 //
 
 #import "HIAppDelegate.h"
-#import <Tor/HITorManager.h>
+#import <Tor/Tor.h>
 
 @implementation HIAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    [HITorManager defaultManager].port = 9999;
     [[HITorManager defaultManager] start];
+    [HITorManager defaultManager].torRouting = YES;
 }
 
 - (void)applicationWillTerminate:(NSNotification *)notification
 {
     [[HITorManager defaultManager] stop];
+}
+
+
+- (IBAction)goClicked:(id)sender
+{
+    [[_webView mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:_urlTextField.stringValue]]];
+}
+
+- (void)webView:(WebView *)sender didFinishLoadForFrame:(WebFrame *)frame
+{
+    [_progressIndicator stopAnimation:self];
+}
+
+- (void)webView:(WebView *)sender didStartProvisionalLoadForFrame:(WebFrame *)frame
+{
+    [_progressIndicator startAnimation:self];
 }
 @end

@@ -10,6 +10,9 @@
 
 @interface HITorManager : NSObject
 
+@property (nonatomic, setter = setTorRouting:, getter = torRouting) BOOL torRouting;
+@property (nonatomic, assign) NSUInteger port;
+
 + (HITorManager *)defaultManager;
 
 - (void)start;

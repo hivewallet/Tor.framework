@@ -7,11 +7,14 @@
 //
 
 #import "HITorManager.h"
+#import "HITorURLProtocol.h"
+
 const char tor_git_revision[] =
 #ifndef _MSC_VER
 #include "micro-revision.i"
 #endif
 "";
+
 #include "HIMainHack.h"
 
 @interface HITorManager ()
@@ -23,6 +26,8 @@ const char tor_git_revision[] =
 @end
 
 @implementation HITorManager
+@synthesize port = _port;
+@synthesize torRouting = _torRouting;
 
 + (HITorManager *)defaultManager
 {
@@ -34,6 +39,17 @@ const char tor_git_revision[] =
         });
     
     return _defaultManager;
+}
+
+- (id)init
+{
+    self = [super init];
+    if (self)
+    {
+        _port = 9050;
+    }
+    
+    return self;
 }
 
 - (void)start
@@ -51,10 +67,11 @@ const char tor_git_revision[] =
         return;
     
     [_torThread cancel];
-//    while (![_torThread isFinished])
-//    {
-//        sleep(1);
-//    }
+    event_base_loopexit(tor_libevent_get_base(), NULL);
+    while (![_torThread isFinished])
+    {
+        usleep(100);
+    }
     [_torThread release];
     _torThread = nil;
 }
@@ -66,17 +83,42 @@ const char tor_git_revision[] =
     [super dealloc];
 }
 
+- (BOOL)torRouting
+{
+    return _torRouting;
+}
+
+- (void)setTorRouting:(BOOL)torRouting
+{
+    if (_torRouting == torRouting)
+        return;
+    
+    _torRouting = torRouting;
+    
+    if (_torRouting)
+    {
+        [NSURLProtocol registerClass:[HITorURLProtocol class]];
+    }
+    else
+    {
+        [NSURLProtocol unregisterClass:[HITorURLProtocol class]];
+    }
+}
+
 - (void)runTor:(NSThread *)obj
 {
     // Configure basics
     char *argv[5];
     int argc = 3;
     argv[0] = "torkit";
-    argv[1] = "DisableDebuggerAttachment";
-    argv[2] = "0";
-    argv[3] = "SocksPort_lines";
-    argv[4] = "9055";
+    argv[1] = "SOCKSPort";
+    argv[2] = (char *)[[NSString stringWithFormat:@"%lu", (unsigned long)_port] UTF8String];
     
+#ifdef DEBUG
+    argc = 5;
+    argv[3] = "DisableDebuggerAttachment";
+    argv[4] = "0";
+#endif //DEBUG
     update_approx_time(time(NULL));
     tor_threads_init();
     init_logging();

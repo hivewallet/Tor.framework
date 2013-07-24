@@ -1,3 +1,6 @@
 [submodule "libtor"]
 	path = libtor
 	url = https://git.torproject.org/git/tor
+[submodule "ASIHTTPRequest"]
+	path = ASIHTTPRequest
+	url = https://github.com/pokeb/asi-http-request.git
