@@ -15,6 +15,7 @@
 		D91FE9CA179E9ACB001B37D8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D91FE9C8179E9ACB001B37D8 /* MainMenu.xib */; };
 		D91FE9DB179E9B0B001B37D8 /* Tor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91FE9D6179E9AF5001B37D8 /* Tor.framework */; };
 		D91FE9E0179FC99A001B37D8 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91FE9DF179FC99A001B37D8 /* WebKit.framework */; };
+		D91FEA9A179FF6B7001B37D8 /* Tor.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D91FE9D6179E9AF5001B37D8 /* Tor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,19 @@
 			remoteInfo = Tor;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D91FEA99179FF6AB001B37D8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D91FEA9A179FF6B7001B37D8 /* Tor.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D91FE9B0179E9ACA001B37D8 /* HITorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HITorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +167,7 @@
 				D91FE9AC179E9ACA001B37D8 /* Sources */,
 				D91FE9AD179E9ACA001B37D8 /* Frameworks */,
 				D91FE9AE179E9ACA001B37D8 /* Resources */,
+				D91FEA99179FF6AB001B37D8 /* CopyFiles */,
 			);
 			buildRules = (
 			);

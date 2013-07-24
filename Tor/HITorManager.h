@@ -17,8 +17,8 @@ NSString * const kHITorManagerStopped; //<< Notification informing that the tor 
 
 @interface HITorManager : NSObject
 
-@property (nonatomic, setter = setTorRouting:, getter = torRouting) BOOL torRouting; //<< Enables and disables tor routing for all NSURLRequests
-@property (nonatomic, assign) NSUInteger port;                                       //<< Sets a port for tor proxy server
+@property (nonatomic, setter = setTorRouting:, getter = torRouting) BOOL torRouting; //<< Enables and disables tor routing for all NSURLRequests. Default is NO.
+@property (nonatomic, assign) NSUInteger port;                                       //<< Sets a port for tor proxy server. Default is 9050
 @property (nonatomic, readonly, getter = isRunning) BOOL isRunning;                  //<< Flag informing that the server is currently running
 
 /** Class method returning defult tor manager.

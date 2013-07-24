@@ -1285,6 +1285,7 @@
 					"${SDK_DIR}/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "Tor/Tor-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_CFLAGS = (
 					"-DSHARE_DATADIR=\"\\\"/usr/local/share\\\"\"",
@@ -1297,6 +1298,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = tor/src/or/;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -1317,6 +1319,7 @@
 					"${SDK_DIR}/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "Tor/Tor-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_CFLAGS = (
 					"-DSHARE_DATADIR=\"\\\"/usr/local/share\\\"\"",
@@ -1329,6 +1332,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = tor/src/or/;
 				WRAPPER_EXTENSION = framework;
 			};
