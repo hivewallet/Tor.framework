@@ -1287,6 +1287,7 @@
 				INFOPLIST_FILE = "Tor/Tor-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_CFLAGS = (
 					"-DSHARE_DATADIR=\"\\\"/usr/local/share\\\"\"",
 					"-DLOCALSTATEDIR=\\\"/usr/local/var\\\"\"",
@@ -1321,6 +1322,7 @@
 				INFOPLIST_FILE = "Tor/Tor-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_CFLAGS = (
 					"-DSHARE_DATADIR=\"\\\"/usr/local/share\\\"\"",
 					"-DLOCALSTATEDIR=\\\"/usr/local/var\\\"\"",

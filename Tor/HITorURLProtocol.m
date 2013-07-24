@@ -53,7 +53,7 @@
 
 - (void)request:(ASIHTTPRequest *)request didReceiveResponseHeaders:(NSDictionary *)responseHeaders
 {
-    if (responseHeaders[@"Content-Type"])
+    if ([responseHeaders objectForKey:@"Content-Type"])
     {
 //        if (request.responseStatusCode >= 300 && request.responseStatusCode < 400)
 //        {
