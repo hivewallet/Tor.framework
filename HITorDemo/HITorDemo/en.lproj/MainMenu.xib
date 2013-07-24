@@ -1309,7 +1309,7 @@
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<array class="NSMutableArray" key="NSSubviews">
-						<object class="WebView" id="365185220">
+						<object class="WebView" id="166120185">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">274</int>
 							<set class="NSMutableSet" key="NSDragTypes">
@@ -1347,26 +1347,26 @@
 							<bool key="UseBackForwardList">YES</bool>
 							<bool key="AllowsUndo">YES</bool>
 						</object>
-						<object class="NSTextField" id="176450758">
+						<object class="NSTextField" id="676018362">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">266</int>
 							<string key="NSFrame">{{7, 332}, {348, 22}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="35700071"/>
+							<reference key="NSNextKeyView" ref="868059913"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<bool key="NSEnabled">YES</bool>
-							<object class="NSTextFieldCell" key="NSCell" id="126734911">
-								<int key="NSCellFlags">-1804599231</int>
+							<object class="NSTextFieldCell" key="NSCell" id="531302408">
+								<int key="NSCellFlags">-1267728319</int>
 								<int key="NSCellFlags2">272630784</int>
 								<string key="NSContents"/>
-								<object class="NSFont" key="NSSupport" id="26709921">
+								<object class="NSFont" key="NSSupport" id="903758984">
 									<string key="NSName">LucidaGrande</string>
 									<double key="NSSize">13</double>
 									<int key="NSfFlags">1044</int>
 								</object>
 								<string key="NSCellIdentifier">_NS:9</string>
-								<reference key="NSControlView" ref="176450758"/>
+								<reference key="NSControlView" ref="676018362"/>
 								<bool key="NSDrawsBackground">YES</bool>
 								<object class="NSColor" key="NSBackgroundColor">
 									<int key="NSColorSpace">6</int>
@@ -1389,22 +1389,22 @@
 							</object>
 							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 						</object>
-						<object class="NSButton" id="35700071">
+						<object class="NSButton" id="868059913">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">265</int>
 							<string key="NSFrame">{{401, 330}, {70, 25}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="365185220"/>
+							<reference key="NSNextKeyView" ref="166120185"/>
 							<string key="NSReuseIdentifierKey">_NS:22</string>
 							<bool key="NSEnabled">YES</bool>
-							<object class="NSButtonCell" key="NSCell" id="557189593">
-								<int key="NSCellFlags">-2080374784</int>
+							<object class="NSButtonCell" key="NSCell" id="930467906">
+								<int key="NSCellFlags">-1543503872</int>
 								<int key="NSCellFlags2">134217728</int>
 								<string key="NSContents">Go</string>
-								<reference key="NSSupport" ref="26709921"/>
+								<reference key="NSSupport" ref="903758984"/>
 								<string key="NSCellIdentifier">_NS:22</string>
-								<reference key="NSControlView" ref="35700071"/>
+								<reference key="NSControlView" ref="868059913"/>
 								<int key="NSButtonFlags">-2038153216</int>
 								<int key="NSButtonFlags2">163</int>
 								<string key="NSAlternateContents"/>
@@ -1414,7 +1414,7 @@
 							</object>
 							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 						</object>
-						<object class="NSProgressIndicator" id="384024010">
+						<object class="NSProgressIndicator" id="852466122">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">265</int>
 							<string key="NSFrame">{{369, 335}, {16, 16}}</string>
@@ -1428,7 +1428,7 @@
 					<string key="NSFrameSize">{480, 360}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
-					<reference key="NSNextKeyView" ref="176450758"/>
+					<reference key="NSNextKeyView" ref="676018362"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1920, 1058}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
@@ -2127,7 +2127,7 @@
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">urlTextField</string>
 						<reference key="source" ref="976324537"/>
-						<reference key="destination" ref="176450758"/>
+						<reference key="destination" ref="676018362"/>
 					</object>
 					<int key="connectionID">550</int>
 				</object>
@@ -2135,7 +2135,7 @@
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">webView</string>
 						<reference key="source" ref="976324537"/>
-						<reference key="destination" ref="365185220"/>
+						<reference key="destination" ref="166120185"/>
 					</object>
 					<int key="connectionID">551</int>
 				</object>
@@ -2143,7 +2143,7 @@
 					<object class="IBActionConnection" key="connection">
 						<string key="label">goClicked:</string>
 						<reference key="source" ref="976324537"/>
-						<reference key="destination" ref="35700071"/>
+						<reference key="destination" ref="868059913"/>
 					</object>
 					<int key="connectionID">556</int>
 				</object>
@@ -2151,14 +2151,22 @@
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">progressIndicator</string>
 						<reference key="source" ref="976324537"/>
-						<reference key="destination" ref="384024010"/>
+						<reference key="destination" ref="852466122"/>
 					</object>
 					<int key="connectionID">558</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
+						<string key="label">goBtn</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="868059913"/>
+					</object>
+					<int key="connectionID">560</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
 						<string key="label">frameLoadDelegate</string>
-						<reference key="source" ref="365185220"/>
+						<reference key="source" ref="166120185"/>
 						<reference key="destination" ref="976324537"/>
 					</object>
 					<int key="connectionID">559</int>
@@ -2166,7 +2174,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">delegate</string>
-						<reference key="source" ref="176450758"/>
+						<reference key="source" ref="676018362"/>
 						<reference key="destination" ref="976324537"/>
 					</object>
 					<int key="connectionID">552</int>
@@ -2696,10 +2704,10 @@
 						<int key="objectID">372</int>
 						<reference key="object" ref="439893737"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="365185220"/>
-							<reference ref="35700071"/>
-							<reference ref="176450758"/>
-							<reference ref="384024010"/>
+							<reference ref="166120185"/>
+							<reference ref="868059913"/>
+							<reference ref="676018362"/>
+							<reference ref="852466122"/>
 						</array>
 						<reference key="parent" ref="972006081"/>
 					</object>
@@ -3178,39 +3186,39 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">536</int>
-						<reference key="object" ref="365185220"/>
+						<reference key="object" ref="166120185"/>
 						<array class="NSMutableArray" key="children"/>
 						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">544</int>
-						<reference key="object" ref="176450758"/>
+						<reference key="object" ref="676018362"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="126734911"/>
+							<reference ref="531302408"/>
 						</array>
 						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">545</int>
-						<reference key="object" ref="126734911"/>
-						<reference key="parent" ref="176450758"/>
+						<reference key="object" ref="531302408"/>
+						<reference key="parent" ref="676018362"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">554</int>
-						<reference key="object" ref="35700071"/>
+						<reference key="object" ref="868059913"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="557189593"/>
+							<reference ref="930467906"/>
 						</array>
 						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">555</int>
-						<reference key="object" ref="557189593"/>
-						<reference key="parent" ref="35700071"/>
+						<reference key="object" ref="930467906"/>
+						<reference key="parent" ref="868059913"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">557</int>
-						<reference key="object" ref="384024010"/>
+						<reference key="object" ref="852466122"/>
 						<reference key="parent" ref="439893737"/>
 					</object>
 				</array>
@@ -3381,7 +3389,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">559</int>
+			<int key="maxID">560</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3400,12 +3408,17 @@
 						</object>
 					</object>
 					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="goBtn">NSButton</string>
 						<string key="progressIndicator">NSProgressIndicator</string>
 						<string key="urlTextField">NSTextField</string>
 						<string key="webView">WebView</string>
 						<string key="window">NSWindow</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="goBtn">
+							<string key="name">goBtn</string>
+							<string key="candidateClassName">NSButton</string>
+						</object>
 						<object class="IBToOneOutletInfo" key="progressIndicator">
 							<string key="name">progressIndicator</string>
 							<string key="candidateClassName">NSProgressIndicator</string>

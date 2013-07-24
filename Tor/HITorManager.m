@@ -17,12 +17,19 @@ const char tor_git_revision[] =
 
 #include "HIMainHack.h"
 
-@interface HITorManager ()
+NSString * const kHITorManagerStarted = @"kHITorManagerStarted";
+NSString * const kHITorManagerStopped = @"kHITorManagerStopped";
 
+
+@interface HITorManager ()
+{
+    NSTimer *_startupTimer;
+    NSDate  *_startupDate;
+}
 @property (nonatomic, readonly) NSThread *torThread;
 
 - (void)runTor:(NSThread *)obj;
-
+- (void)startupCheck:(NSTimer *)timer;
 @end
 
 @implementation HITorManager
@@ -59,13 +66,40 @@ const char tor_git_revision[] =
     
     _torThread = [[NSThread alloc] initWithTarget:self selector:@selector(runTor:) object:nil];
     [_torThread start];
+    
+    [_startupDate release];
+    _startupDate = [[NSDate alloc] initWithTimeIntervalSinceNow:0];
+    _startupTimer = [NSTimer scheduledTimerWithTimeInterval:0.2 target:self selector:@selector(startupCheck:) userInfo:nil repeats:YES];
+}
+
+- (void)startupCheck:(NSTimer *)timer
+{
+    if (can_complete_circuit)
+    {
+        [_startupTimer invalidate];
+        _startupTimer = nil;
+        [self willChangeValueForKey:@"isRunning"];
+        _isRunning = YES;
+        [self didChangeValueForKey:@"isRunning"];
+        [[NSNotificationCenter defaultCenter] postNotificationName:kHITorManagerStarted object:self];
+    }
+    else
+    {
+        if ([[NSDate dateWithTimeIntervalSinceNow:0] timeIntervalSinceDate:_startupDate] > 300)
+        {
+            // Ok it's time to close down, we won't start
+            [self stop];
+        }
+    }
 }
 
 - (void)stop
 {
     if (!_torThread)
         return;
-    
+
+    [_startupTimer invalidate];
+    _startupTimer = nil;    
     [_torThread cancel];
     event_base_loopexit(tor_libevent_get_base(), NULL);
     while (![_torThread isFinished])
@@ -74,11 +108,19 @@ const char tor_git_revision[] =
     }
     [_torThread release];
     _torThread = nil;
+    
+    [self willChangeValueForKey:@"isRunning"];
+    _isRunning = NO;
+    [self didChangeValueForKey:@"isRunning"];
+    [[NSNotificationCenter defaultCenter] postNotificationName:kHITorManagerStopped object:self];
+    
 }
 
 
 - (void)dealloc
 {
+    [_startupDate release];
+    [_startupTimer invalidate];
     [self stop];
     [super dealloc];
 }
@@ -108,17 +150,22 @@ const char tor_git_revision[] =
 - (void)runTor:(NSThread *)obj
 {
     // Configure basics
-    char *argv[5];
+    char *argv[6];
     int argc = 3;
     argv[0] = "torkit";
     argv[1] = "SOCKSPort";
     argv[2] = (char *)[[NSString stringWithFormat:@"%lu", (unsigned long)_port] UTF8String];
-    
+
 #ifdef DEBUG
-    argc = 5;
+    argc = 6;
     argv[3] = "DisableDebuggerAttachment";
     argv[4] = "0";
+#else
+    argc = 4;
+    argv[3] = "--quiet";
 #endif //DEBUG
+    
+    
     update_approx_time(time(NULL));
     tor_threads_init();
     init_logging();

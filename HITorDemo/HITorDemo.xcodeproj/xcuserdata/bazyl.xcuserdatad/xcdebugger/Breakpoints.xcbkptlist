@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "HITorDemo/HIAppDelegate.m"
-         timestampString = "396357070.147934"
+         timestampString = "396359050.865486"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "17"
-         endingLineNumber = "17"
+         startingLineNumber = "18"
+         endingLineNumber = "18"
          landmarkName = "-applicationDidFinishLaunching:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -99,11 +99,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../Tor/HITorManager.m"
-         timestampString = "396357070.147934"
+         timestampString = "396358918.961079"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "110"
-         endingLineNumber = "110"
+         startingLineNumber = "152"
+         endingLineNumber = "152"
          landmarkName = "-runTor:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -112,11 +112,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../Tor/HITorManager.m"
-         timestampString = "396357070.147934"
+         timestampString = "396358918.961079"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "66"
-         endingLineNumber = "66"
+         startingLineNumber = "98"
+         endingLineNumber = "98"
          landmarkName = "-stop"
          landmarkType = "5">
       </FileBreakpoint>
@@ -164,11 +164,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../Tor/HITorManager.m"
-         timestampString = "396357070.147934"
+         timestampString = "396358918.961079"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "75"
-         endingLineNumber = "75"
+         startingLineNumber = "109"
+         endingLineNumber = "109"
          landmarkName = "-stop"
          landmarkType = "5">
       </FileBreakpoint>
@@ -177,11 +177,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../Tor/HITorManager.m"
-         timestampString = "396357070.147934"
+         timestampString = "396359172.786082"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "254"
-         endingLineNumber = "254"
+         startingLineNumber = "298"
+         endingLineNumber = "298"
          landmarkName = "-runTor:"
          landmarkType = "5">
       </FileBreakpoint>

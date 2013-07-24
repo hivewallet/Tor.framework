@@ -11,10 +11,15 @@
 /** Real Tor Manager. Allows you to start and stop tor proxy server that
  *  allows you to route your network via tor.
  */
+
+NSString * const kHITorManagerStarted; //<< Notification informing that the tor manager has started
+NSString * const kHITorManagerStopped; //<< Notification informing that the tor manager has stopped
+
 @interface HITorManager : NSObject
 
 @property (nonatomic, setter = setTorRouting:, getter = torRouting) BOOL torRouting; //<< Enables and disables tor routing for all NSURLRequests
 @property (nonatomic, assign) NSUInteger port;                                       //<< Sets a port for tor proxy server
+@property (nonatomic, readonly, getter = isRunning) BOOL isRunning;                  //<< Flag informing that the server is currently running
 
 /** Class method returning defult tor manager.
  *
