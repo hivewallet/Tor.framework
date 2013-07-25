@@ -12,8 +12,8 @@
  *  allows you to route your network via tor.
  */
 
-NSString * const kHITorManagerStarted; //<< Notification informing that the tor manager has started
-NSString * const kHITorManagerStopped; //<< Notification informing that the tor manager has stopped
+extern NSString * const kHITorManagerStarted; //<< Notification informing that the tor manager has started
+extern NSString * const kHITorManagerStopped; //<< Notification informing that the tor manager has stopped
 
 @interface HITorManager : NSObject
 
