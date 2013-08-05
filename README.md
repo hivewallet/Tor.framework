@@ -19,9 +19,9 @@ In order to be able to compile this stuff you need to use homebrew and do the fo
 
 	brew link openssl --force
 
-And remember to fetch bitcoind sources!
+And remember to fetch tor sources!
 
-	git submodule update --init
+	git submodule update --init --recursive
 
 Now you're ready to go!
 
