@@ -1005,7 +1005,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = "Nova Project";
+				ORGANIZATIONNAME = "Hive Developers";
 			};
 			buildConfigurationList = D9CEAE441786E5E4005F8DF0 /* Build configuration list for PBXProject "Tor" */;
 			compatibilityVersion = "Xcode 3.2";
