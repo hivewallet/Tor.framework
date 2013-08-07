@@ -3,7 +3,7 @@
 //  Tor
 //
 //  Created by Bazyli Zygan on 23.07.2013.
-//  Copyright (c) 2013 Nova Project. All rights reserved.
+//  Copyright (c) 2013 Hive Developers. All rights reserved.
 //
 
 #import "HITorManager.h"
