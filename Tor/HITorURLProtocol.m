@@ -36,6 +36,15 @@
 - (void)startLoading
 {
     _torReq = [[ASIHTTPRequest alloc] initWithURL:self.request.URL];
+    
+    for (NSString *headerFieldName in self.request.allHTTPHeaderFields.allKeys)
+    {
+        [_torReq addRequestHeader:headerFieldName value:[self.request.allHTTPHeaderFields valueForKey:headerFieldName]];
+    }
+    
+    [_torReq setRequestMethod:self.request.HTTPMethod];
+    if (self.request.HTTPBody)
+        [_torReq appendPostData:self.request.HTTPBody];
     [_torReq setProxyHost:@"127.0.0.1"];
     [_torReq setProxyPort:(int)[HITorManager defaultManager].port];
     [_torReq setProxyType:(NSString *)kCFProxyTypeSOCKS];
