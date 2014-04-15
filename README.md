@@ -3,6 +3,14 @@ Tor.framework
 
 Tor.framework allows you to use Tor network (http://torproject.org) to route your WebKit connections and make your web browsing annonymous. Also, it starts a tor SOCK proxy to route external connections via Tor network as well.
 
+---
+
+**IMPORTANT: We aren't currently working on this framework.** It was created for [Hive](https://github.com/hivewallet/hive-osx), but we haven't used it in the end, and we might actually end up implementing Tor in Hive in a different way. You can try to use it if you want, but we can't provide any support at the moment. It might be a better idea to use one of these instead:
+
+- https://github.com/chatsecure/onionkit
+- https://github.com/ChatSecure/Tor.framework
+
+
 About Tor.framework
 --------------------------
 
